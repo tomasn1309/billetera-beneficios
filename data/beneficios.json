@@ -119,7 +119,43 @@
    "tope": null,
    "canal": "Presencial",
    "cadena": true,
-   "ubicaciones": [],
+   "ubicaciones": [
+    {
+     "nombre": "Abtao",
+     "direccion": "Abtao",
+     "lat": -33.444294,
+     "lng": -70.701294,
+     "aprox": false
+    },
+    {
+     "nombre": "Abtao",
+     "direccion": "Abtao",
+     "lat": -33.563842,
+     "lng": -70.572736,
+     "aprox": false
+    },
+    {
+     "nombre": "Abtao",
+     "direccion": "Abtao",
+     "lat": -33.451947,
+     "lng": -70.700567,
+     "aprox": false
+    },
+    {
+     "nombre": "Abtao",
+     "direccion": "Abtao",
+     "lat": -33.449098,
+     "lng": -70.701256,
+     "aprox": false
+    },
+    {
+     "nombre": "Abtao",
+     "direccion": "Abtao",
+     "lat": -33.440157,
+     "lng": -70.701018,
+     "aprox": false
+    }
+   ],
    "vigencia_hasta": null,
    "verificado": null,
    "fuente": "https://sitiospublicos.bancochile.cl/personas/beneficios/sabores/",
@@ -185,7 +221,92 @@
    "tope": null,
    "canal": "Presencial y online",
    "cadena": true,
-   "ubicaciones": [],
+   "ubicaciones": [
+    {
+     "nombre": "Entel",
+     "direccion": "Avenida La Marina 2725",
+     "lat": -33.491517,
+     "lng": -70.671978,
+     "aprox": false
+    },
+    {
+     "nombre": "Entel - Movistar - Wom",
+     "direccion": "Avenida Maipú 4790, Pedro Aguirre Cerda",
+     "lat": -33.496994,
+     "lng": -70.68262,
+     "aprox": false
+    },
+    {
+     "nombre": "Entel",
+     "direccion": "Los Pioneros 3708",
+     "lat": -33.50083,
+     "lng": -70.687427,
+     "aprox": false
+    },
+    {
+     "nombre": "Entel",
+     "direccion": "Ismael Valdés 2020",
+     "lat": -33.480365,
+     "lng": -70.662983,
+     "aprox": false
+    },
+    {
+     "nombre": "Entel",
+     "direccion": "Avenida Providencia",
+     "lat": -33.421656,
+     "lng": -70.609245,
+     "aprox": false
+    },
+    {
+     "nombre": "Entel",
+     "direccion": "Eyzaguirre 657, San Bernardo",
+     "lat": -33.595452,
+     "lng": -70.7061,
+     "aprox": false
+    },
+    {
+     "nombre": "Entel",
+     "direccion": "Entel",
+     "lat": -33.610064,
+     "lng": -70.575679,
+     "aprox": false
+    },
+    {
+     "nombre": "Entel",
+     "direccion": "Morandé 315, Santiago",
+     "lat": -33.439741,
+     "lng": -70.653604,
+     "aprox": false
+    },
+    {
+     "nombre": "Entel",
+     "direccion": "Santo Domingo",
+     "lat": -33.436068,
+     "lng": -70.651178,
+     "aprox": false
+    },
+    {
+     "nombre": "Entel",
+     "direccion": "Entel",
+     "lat": -33.489452,
+     "lng": -70.650865,
+     "aprox": false
+    },
+    {
+     "nombre": "Entel",
+     "direccion": "Avenida Providencia",
+     "lat": -33.428479,
+     "lng": -70.619973,
+     "aprox": false
+    },
+    {
+     "nombre": "Entel",
+     "direccion": "Entel",
+     "lat": -33.441671,
+     "lng": -70.649062,
+     "aprox": false
+    }
+   ],
    "vigencia_hasta": "2026-12-31",
    "verificado": "2026-10-04",
    "fuente": "https://sitiospublicos.bancochile.cl/personas/beneficios/sabores/",
@@ -397,7 +518,64 @@
    "tope": null,
    "canal": "Presencial",
    "cadena": true,
-   "ubicaciones": [],
+   "ubicaciones": [
+    {
+     "nombre": "Lippi",
+     "direccion": "Avenida Las Condes 13451",
+     "lat": -33.370706,
+     "lng": -70.506967,
+     "aprox": false
+    },
+    {
+     "nombre": "Lippi",
+     "direccion": "Santa Delia 8937, La Florida",
+     "lat": -33.53387,
+     "lng": -70.571935,
+     "aprox": false
+    },
+    {
+     "nombre": "Lippi",
+     "direccion": "Avenida Padre Hurtado Sur 875, Las Condes",
+     "lat": -33.415268,
+     "lng": -70.540339,
+     "aprox": false
+    },
+    {
+     "nombre": "Lippi",
+     "direccion": "Avenida Andrés Bello 2461, Providencia",
+     "lat": -33.417435,
+     "lng": -70.606516,
+     "aprox": false
+    },
+    {
+     "nombre": "Lippi",
+     "direccion": "Avenida Independencia 565, Independencia",
+     "lat": -33.424395,
+     "lng": -70.653242,
+     "aprox": false
+    },
+    {
+     "nombre": "Lippi",
+     "direccion": "Lippi",
+     "lat": -33.331837,
+     "lng": -70.702367,
+     "aprox": false
+    },
+    {
+     "nombre": "Lippi",
+     "direccion": "Avenida Alcalde Carlos Valdovinos 200",
+     "lat": -33.486122,
+     "lng": -70.627282,
+     "aprox": false
+    },
+    {
+     "nombre": "Lippi",
+     "direccion": "Puente Alto",
+     "lat": -33.570545,
+     "lng": -70.580349,
+     "aprox": false
+    }
+   ],
    "vigencia_hasta": null,
    "verificado": null,
    "fuente": "https://copecpay.cl/",
@@ -675,7 +853,36 @@
    "tope": null,
    "canal": "Presencial",
    "cadena": true,
-   "ubicaciones": [],
+   "ubicaciones": [
+    {
+     "nombre": "The Body Shop",
+     "direccion": "Avenida Nueva Costanera 3900, Vitacura",
+     "lat": -33.398469,
+     "lng": -70.598549,
+     "aprox": false
+    },
+    {
+     "nombre": "The Body Shop",
+     "direccion": "Avenida Andrés Bello 2461, Providencia",
+     "lat": -33.418078,
+     "lng": -70.605806,
+     "aprox": false
+    },
+    {
+     "nombre": "The Body Shop",
+     "direccion": "Avenida Padre Hurtado Sur 875, Las Condes",
+     "lat": -33.415689,
+     "lng": -70.540205,
+     "aprox": false
+    },
+    {
+     "nombre": "The Body Shop",
+     "direccion": "Avenida Apoquindo 2730, Las Condes",
+     "lat": -33.417635,
+     "lng": -70.601315,
+     "aprox": false
+    }
+   ],
    "vigencia_hasta": null,
    "verificado": null,
    "fuente": "https://conbeneficios.cl/e/entel",
@@ -736,7 +943,36 @@
    "tope": null,
    "canal": "Presencial",
    "cadena": true,
-   "ubicaciones": [],
+   "ubicaciones": [
+    {
+     "nombre": "Tommy Beans",
+     "direccion": "Tommy Beans",
+     "lat": -33.452567,
+     "lng": -70.682321,
+     "aprox": false
+    },
+    {
+     "nombre": "Tommy Beans",
+     "direccion": "Avenida Américo Vespucio 1737, Huechuraba",
+     "lat": -33.364749,
+     "lng": -70.678913,
+     "aprox": false
+    },
+    {
+     "nombre": "Tommy Beans",
+     "direccion": "Tommy Beans",
+     "lat": -33.414334,
+     "lng": -70.583735,
+     "aprox": false
+    },
+    {
+     "nombre": "Tommy Beans",
+     "direccion": "Avenida Andrés Bello 2461, Providencia",
+     "lat": -33.417902,
+     "lng": -70.606813,
+     "aprox": false
+    }
+   ],
    "vigencia_hasta": null,
    "verificado": null,
    "fuente": "https://conbeneficios.cl/e/entel",
@@ -1114,7 +1350,15 @@
    "tope": null,
    "canal": "Presencial",
    "cadena": true,
-   "ubicaciones": [],
+   "ubicaciones": [
+    {
+     "nombre": "Avatar Sushi",
+     "direccion": "Avatar Sushi",
+     "lat": -33.455726,
+     "lng": -70.594256,
+     "aprox": false
+    }
+   ],
    "vigencia_hasta": null,
    "verificado": null,
    "fuente": "https://banco.santander.cl/beneficios/descuentos-restaurantes",
@@ -1397,7 +1641,92 @@
    "tope": null,
    "canal": "Presencial",
    "cadena": true,
-   "ubicaciones": [],
+   "ubicaciones": [
+    {
+     "nombre": "KA",
+     "direccion": "KA",
+     "lat": -33.380928,
+     "lng": -70.543363,
+     "aprox": false
+    },
+    {
+     "nombre": "Karai",
+     "direccion": "Isidora Goyenechea 3000, Las Condes",
+     "lat": -33.414082,
+     "lng": -70.598193,
+     "aprox": false
+    },
+    {
+     "nombre": "Kawel / Los Mares",
+     "direccion": "Kawel / Los Mares",
+     "lat": -33.467073,
+     "lng": -70.744702,
+     "aprox": false
+    },
+    {
+     "nombre": "Kabala",
+     "direccion": "José Victorino Lastarria",
+     "lat": -33.439649,
+     "lng": -70.640925,
+     "aprox": false
+    },
+    {
+     "nombre": "Karina Díaz",
+     "direccion": "Karina Díaz",
+     "lat": -33.600772,
+     "lng": -70.580566,
+     "aprox": false
+    },
+    {
+     "nombre": "Kairos",
+     "direccion": "Avenida Vicuña Mackenna Oriente 7110, La Florida",
+     "lat": -33.516976,
+     "lng": -70.596756,
+     "aprox": false
+    },
+    {
+     "nombre": "Kamaleon Bikes",
+     "direccion": "Crescente Errazuriz 335",
+     "lat": -33.457383,
+     "lng": -70.626174,
+     "aprox": false
+    },
+    {
+     "nombre": "Kayser",
+     "direccion": "Avenida Recoleta",
+     "lat": -33.429748,
+     "lng": -70.647036,
+     "aprox": false
+    },
+    {
+     "nombre": "Kamadi",
+     "direccion": "Avenida Vitacura, Vitacura",
+     "lat": -33.395691,
+     "lng": -70.580893,
+     "aprox": false
+    },
+    {
+     "nombre": "Karmi",
+     "direccion": "Gamero",
+     "lat": -33.421777,
+     "lng": -70.664552,
+     "aprox": false
+    },
+    {
+     "nombre": "Kayser",
+     "direccion": "Avenida Providencia, Providencia",
+     "lat": -33.419118,
+     "lng": -70.603308,
+     "aprox": false
+    },
+    {
+     "nombre": "Kati",
+     "direccion": "Kati",
+     "lat": -33.371397,
+     "lng": -70.635471,
+     "aprox": false
+    }
+   ],
    "vigencia_hasta": null,
    "verificado": null,
    "fuente": "https://banco.santander.cl/beneficios/descuentos-restaurantes",

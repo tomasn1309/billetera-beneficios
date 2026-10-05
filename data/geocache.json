@@ -1,0 +1,455 @@
+{
+ "places:abrasas": {
+  "fecha": "2026-10-05",
+  "r": []
+ },
+ "places:abtao": {
+  "fecha": "2026-10-05",
+  "r": [
+   {
+    "aprox": false,
+    "direccion": "Abtao",
+    "lat": -33.444294,
+    "lng": -70.701294,
+    "nombre": "Abtao"
+   },
+   {
+    "aprox": false,
+    "direccion": "Abtao",
+    "lat": -33.563842,
+    "lng": -70.572736,
+    "nombre": "Abtao"
+   },
+   {
+    "aprox": false,
+    "direccion": "Abtao",
+    "lat": -33.451947,
+    "lng": -70.700567,
+    "nombre": "Abtao"
+   },
+   {
+    "aprox": false,
+    "direccion": "Abtao",
+    "lat": -33.449098,
+    "lng": -70.701256,
+    "nombre": "Abtao"
+   },
+   {
+    "aprox": false,
+    "direccion": "Abtao",
+    "lat": -33.440157,
+    "lng": -70.701018,
+    "nombre": "Abtao"
+   }
+  ]
+ },
+ "places:avatar sushi": {
+  "fecha": "2026-10-05",
+  "r": [
+   {
+    "aprox": false,
+    "direccion": "Avatar Sushi",
+    "lat": -33.455726,
+    "lng": -70.594256,
+    "nombre": "Avatar Sushi"
+   }
+  ]
+ },
+ "places:burger king": {
+  "fecha": "2026-10-05",
+  "r": []
+ },
+ "places:cinemark": {
+  "fecha": "2026-10-05",
+  "r": []
+ },
+ "places:combustible copec": {
+  "fecha": "2026-10-05",
+  "r": []
+ },
+ "places:cupón dominical copec": {
+  "fecha": "2026-10-05",
+  "r": []
+ },
+ "places:dagan": {
+  "fecha": "2026-10-05",
+  "r": []
+ },
+ "places:dunkin'": {
+  "fecha": "2026-10-05",
+  "r": []
+ },
+ "places:entel": {
+  "fecha": "2026-10-05",
+  "r": [
+   {
+    "aprox": false,
+    "direccion": "Avenida La Marina 2725",
+    "lat": -33.491517,
+    "lng": -70.671978,
+    "nombre": "Entel"
+   },
+   {
+    "aprox": false,
+    "direccion": "Avenida Maipú 4790, Pedro Aguirre Cerda",
+    "lat": -33.496994,
+    "lng": -70.68262,
+    "nombre": "Entel - Movistar - Wom"
+   },
+   {
+    "aprox": false,
+    "direccion": "Los Pioneros 3708",
+    "lat": -33.50083,
+    "lng": -70.687427,
+    "nombre": "Entel"
+   },
+   {
+    "aprox": false,
+    "direccion": "Ismael Valdés 2020",
+    "lat": -33.480365,
+    "lng": -70.662983,
+    "nombre": "Entel"
+   },
+   {
+    "aprox": false,
+    "direccion": "Avenida Providencia",
+    "lat": -33.421656,
+    "lng": -70.609245,
+    "nombre": "Entel"
+   },
+   {
+    "aprox": false,
+    "direccion": "Eyzaguirre 657, San Bernardo",
+    "lat": -33.595452,
+    "lng": -70.7061,
+    "nombre": "Entel"
+   },
+   {
+    "aprox": false,
+    "direccion": "Entel",
+    "lat": -33.610064,
+    "lng": -70.575679,
+    "nombre": "Entel"
+   },
+   {
+    "aprox": false,
+    "direccion": "Morandé 315, Santiago",
+    "lat": -33.439741,
+    "lng": -70.653604,
+    "nombre": "Entel"
+   },
+   {
+    "aprox": false,
+    "direccion": "Santo Domingo",
+    "lat": -33.436068,
+    "lng": -70.651178,
+    "nombre": "Entel"
+   },
+   {
+    "aprox": false,
+    "direccion": "Entel",
+    "lat": -33.489452,
+    "lng": -70.650865,
+    "nombre": "Entel"
+   },
+   {
+    "aprox": false,
+    "direccion": "Avenida Providencia",
+    "lat": -33.428479,
+    "lng": -70.619973,
+    "nombre": "Entel"
+   },
+   {
+    "aprox": false,
+    "direccion": "Entel",
+    "lat": -33.441671,
+    "lng": -70.649062,
+    "nombre": "Entel"
+   }
+  ]
+ },
+ "places:euro rent a car": {
+  "fecha": "2026-10-05",
+  "r": []
+ },
+ "places:farmacias ahumada": {
+  "fecha": "2026-10-05",
+  "r": []
+ },
+ "places:fork": {
+  "fecha": "2026-10-05",
+  "r": []
+ },
+ "places:green lab": {
+  "fecha": "2026-10-05",
+  "r": []
+ },
+ "places:il mascarpone": {
+  "fecha": "2026-10-05",
+  "r": []
+ },
+ "places:juan maestro": {
+  "fecha": "2026-10-05",
+  "r": []
+ },
+ "places:ka": {
+  "fecha": "2026-10-05",
+  "r": [
+   {
+    "aprox": false,
+    "direccion": "KA",
+    "lat": -33.380928,
+    "lng": -70.543363,
+    "nombre": "KA"
+   },
+   {
+    "aprox": false,
+    "direccion": "Isidora Goyenechea 3000, Las Condes",
+    "lat": -33.414082,
+    "lng": -70.598193,
+    "nombre": "Karai"
+   },
+   {
+    "aprox": false,
+    "direccion": "Kawel / Los Mares",
+    "lat": -33.467073,
+    "lng": -70.744702,
+    "nombre": "Kawel / Los Mares"
+   },
+   {
+    "aprox": false,
+    "direccion": "José Victorino Lastarria",
+    "lat": -33.439649,
+    "lng": -70.640925,
+    "nombre": "Kabala"
+   },
+   {
+    "aprox": false,
+    "direccion": "Karina Díaz",
+    "lat": -33.600772,
+    "lng": -70.580566,
+    "nombre": "Karina Díaz"
+   },
+   {
+    "aprox": false,
+    "direccion": "Avenida Vicuña Mackenna Oriente 7110, La Florida",
+    "lat": -33.516976,
+    "lng": -70.596756,
+    "nombre": "Kairos"
+   },
+   {
+    "aprox": false,
+    "direccion": "Crescente Errazuriz 335",
+    "lat": -33.457383,
+    "lng": -70.626174,
+    "nombre": "Kamaleon Bikes"
+   },
+   {
+    "aprox": false,
+    "direccion": "Avenida Recoleta",
+    "lat": -33.429748,
+    "lng": -70.647036,
+    "nombre": "Kayser"
+   },
+   {
+    "aprox": false,
+    "direccion": "Avenida Vitacura, Vitacura",
+    "lat": -33.395691,
+    "lng": -70.580893,
+    "nombre": "Kamadi"
+   },
+   {
+    "aprox": false,
+    "direccion": "Gamero",
+    "lat": -33.421777,
+    "lng": -70.664552,
+    "nombre": "Karmi"
+   },
+   {
+    "aprox": false,
+    "direccion": "Avenida Providencia, Providencia",
+    "lat": -33.419118,
+    "lng": -70.603308,
+    "nombre": "Kayser"
+   },
+   {
+    "aprox": false,
+    "direccion": "Kati",
+    "lat": -33.371397,
+    "lng": -70.635471,
+    "nombre": "Kati"
+   }
+  ]
+ },
+ "places:kato": {
+  "fecha": "2026-10-05",
+  "r": []
+ },
+ "places:kobo": {
+  "fecha": "2026-10-05",
+  "r": []
+ },
+ "places:lippi": {
+  "fecha": "2026-10-05",
+  "r": [
+   {
+    "aprox": false,
+    "direccion": "Avenida Las Condes 13451",
+    "lat": -33.370706,
+    "lng": -70.506967,
+    "nombre": "Lippi"
+   },
+   {
+    "aprox": false,
+    "direccion": "Santa Delia 8937, La Florida",
+    "lat": -33.53387,
+    "lng": -70.571935,
+    "nombre": "Lippi"
+   },
+   {
+    "aprox": false,
+    "direccion": "Avenida Padre Hurtado Sur 875, Las Condes",
+    "lat": -33.415268,
+    "lng": -70.540339,
+    "nombre": "Lippi"
+   },
+   {
+    "aprox": false,
+    "direccion": "Avenida Andrés Bello 2461, Providencia",
+    "lat": -33.417435,
+    "lng": -70.606516,
+    "nombre": "Lippi"
+   },
+   {
+    "aprox": false,
+    "direccion": "Avenida Independencia 565, Independencia",
+    "lat": -33.424395,
+    "lng": -70.653242,
+    "nombre": "Lippi"
+   },
+   {
+    "aprox": false,
+    "direccion": "Lippi",
+    "lat": -33.331837,
+    "lng": -70.702367,
+    "nombre": "Lippi"
+   },
+   {
+    "aprox": false,
+    "direccion": "Avenida Alcalde Carlos Valdovinos 200",
+    "lat": -33.486122,
+    "lng": -70.627282,
+    "nombre": "Lippi"
+   },
+   {
+    "aprox": false,
+    "direccion": "Puente Alto",
+    "lat": -33.570545,
+    "lng": -70.580349,
+    "nombre": "Lippi"
+   }
+  ]
+ },
+ "places:mamut": {
+  "fecha": "2026-10-05",
+  "r": []
+ },
+ "places:melt pizzas": {
+  "fecha": "2026-10-05",
+  "r": []
+ },
+ "places:miércoles de sabores": {
+  "fecha": "2026-10-05",
+  "r": []
+ },
+ "places:miércoles gourmet": {
+  "fecha": "2026-10-05",
+  "r": []
+ },
+ "places:papa johns": {
+  "fecha": "2026-10-05",
+  "r": []
+ },
+ "places:restaurantes platinum": {
+  "fecha": "2026-10-05",
+  "r": []
+ },
+ "places:sakura": {
+  "fecha": "2026-10-05",
+  "r": []
+ },
+ "places:the body shop": {
+  "fecha": "2026-10-05",
+  "r": [
+   {
+    "aprox": false,
+    "direccion": "Avenida Nueva Costanera 3900, Vitacura",
+    "lat": -33.398469,
+    "lng": -70.598549,
+    "nombre": "The Body Shop"
+   },
+   {
+    "aprox": false,
+    "direccion": "Avenida Andrés Bello 2461, Providencia",
+    "lat": -33.418078,
+    "lng": -70.605806,
+    "nombre": "The Body Shop"
+   },
+   {
+    "aprox": false,
+    "direccion": "Avenida Padre Hurtado Sur 875, Las Condes",
+    "lat": -33.415689,
+    "lng": -70.540205,
+    "nombre": "The Body Shop"
+   },
+   {
+    "aprox": false,
+    "direccion": "Avenida Apoquindo 2730, Las Condes",
+    "lat": -33.417635,
+    "lng": -70.601315,
+    "nombre": "The Body Shop"
+   }
+  ]
+ },
+ "places:tommy beans": {
+  "fecha": "2026-10-05",
+  "r": [
+   {
+    "aprox": false,
+    "direccion": "Tommy Beans",
+    "lat": -33.452567,
+    "lng": -70.682321,
+    "nombre": "Tommy Beans"
+   },
+   {
+    "aprox": false,
+    "direccion": "Avenida Américo Vespucio 1737, Huechuraba",
+    "lat": -33.364749,
+    "lng": -70.678913,
+    "nombre": "Tommy Beans"
+   },
+   {
+    "aprox": false,
+    "direccion": "Tommy Beans",
+    "lat": -33.414334,
+    "lng": -70.583735,
+    "nombre": "Tommy Beans"
+   },
+   {
+    "aprox": false,
+    "direccion": "Avenida Andrés Bello 2461, Providencia",
+    "lat": -33.417902,
+    "lng": -70.606813,
+    "nombre": "Tommy Beans"
+   }
+  ]
+ },
+ "places:vapiano": {
+  "fecha": "2026-10-05",
+  "r": []
+ },
+ "places:velvet bakery": {
+  "fecha": "2026-10-05",
+  "r": []
+ }
+}
