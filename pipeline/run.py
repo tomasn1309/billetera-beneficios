@@ -41,6 +41,9 @@ def run_provider(key: str, src: dict, cfg: dict, hoy: str, desde_cache: bool) ->
             pages = [Page(**p) for p in load_json(raw_dir / "pages.json", [])]
         else:
             pages = asyncio.run(fetch_provider(src["inicio"], src.get("seguir"), cfg["max_detalle"]))
+            if not any(p.ok for p in pages) and src.get("alternativas"):
+                print(f"  sitio oficial no disponible; usando fuente alternativa", flush=True)
+                pages += asyncio.run(fetch_provider(src["alternativas"], None, 0))
             raw_dir.mkdir(parents=True, exist_ok=True)
             dump_json(raw_dir / "pages.json", [p.__dict__ for p in pages])
         ok_pages = [p for p in pages if p.ok]

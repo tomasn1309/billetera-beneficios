@@ -56,8 +56,12 @@ async def fetch_provider(inicio: list[str], seguir: str | None, max_detalle: int
     from playwright.async_api import async_playwright
 
     async with async_playwright() as pw:
-        browser = await pw.chromium.launch()
-        ctx = await browser.new_context(user_agent=UA, locale="es-CL", timezone_id="America/Santiago")
+        browser = await pw.chromium.launch(args=["--disable-blink-features=AutomationControlled"])
+        ctx = await browser.new_context(
+            user_agent=UA, locale="es-CL", timezone_id="America/Santiago", viewport={"width": 1366, "height": 900},
+            extra_http_headers={"Accept-Language": "es-CL,es;q=0.9,en;q=0.6"})
+        # algunos sitios rechazan navegadores automatizados; esto oculta las marcas más obvias
+        await ctx.add_init_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined});")
         pages = [await _grab(ctx, u) for u in inicio]
         if seguir:
             hosts = {urlparse(u).netloc for u in inicio}

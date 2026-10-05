@@ -26,6 +26,10 @@ proveedores:
       - https://banco.santander.cl/beneficios
       - https://banco.santander.cl/beneficios/descuentos-restaurantes
     seguir: "/beneficios/"
+    # El sitio de Santander bloquea los servidores de GitHub (HTTP 403). Si pasa, se usa este
+    # agregador público como respaldo. Revisa siempre las condiciones en la app del banco.
+    alternativas:
+      - https://panguiapp.com/bancos/santander
 
   fal:
     nombre: Falabella (CMR / Débito)
@@ -45,6 +49,8 @@ proveedores:
       - https://ww2.copec.cl/personas/promociones
       - https://www.fullcopec.cl/otros-beneficios
     seguir: null
+    alternativas:
+      - https://panguiapp.com/bancos/copec-pay
 
   ent:
     nombre: Entel

@@ -1,4 +1,4 @@
-"""Convierte el texto de las páginas en beneficios estructurados usando la API de Claude.
+"""Convierte el texto de las páginas en beneficios estructurados con un modelo de lenguaje (Gemini o Claude).
 
 Usar un modelo en vez de selectores CSS hace que el pipeline siga funcionando cuando un banco
 rediseña su sitio: solo depende de que el texto del beneficio siga visible en la página.
@@ -7,6 +7,8 @@ from __future__ import annotations
 
 import json
 import os
+import re
+import time
 from typing import Any, Iterable
 
 from .fetch import Page
@@ -15,7 +17,9 @@ from .models import CATEGORIAS
 CHUNK = 30000
 # Motor de extracción: "gemini" (gratis con una key de Google AI Studio) o "anthropic" (pagado).
 # Por defecto usa el que tenga key disponible, prefiriendo Gemini.
-GEMINI_MODEL = os.environ.get("BB_GEMINI_MODEL", "gemini-flash-latest")
+GEMINI_MODEL = os.environ.get("BB_GEMINI_MODEL", "")  # vacío = elegir automáticamente
+GEMINI_BASE = "https://generativelanguage.googleapis.com/v1beta"
+GEMINI_RESPALDO = ["gemini-2.5-flash", "gemini-2.0-flash", "gemini-2.5-flash-lite", "gemini-flash-latest", "gemini-flash-lite-latest"]
 ANTHROPIC_MODEL = os.environ.get("BB_MODEL", "claude-sonnet-5-5")
 GEMINI_PAUSA_S = float(os.environ.get("BB_GEMINI_PAUSA", "7"))  # respeta ~10 solicitudes/minuto del plan gratis
 
@@ -122,24 +126,73 @@ def parse_json_text(text: str) -> list[dict]:
     return list(obj.get("beneficios", [])) if isinstance(obj, dict) else []
 
 
+_modelos: list[str] | None = None   # modelos disponibles, en orden de preferencia
+_agotados: set[str] = set()         # modelos sin cuota en esta corrida
+
+
+def _ordenar_modelos(nombres: list[str]) -> list[str]:
+    malos = ("image", "tts", "live", "audio", "embedding", "exp", "thinking", "robotics", "computer")
+    flash = [n for n in nombres if "flash" in n and not any(m in n for m in malos)]
+    def clave(n):
+        v = re.search(r"(\d+(?:\.\d+)?)", n)
+        return ("preview" in n, "lite" in n, -(float(v.group(1)) if v else 0), n)
+    return sorted(set(flash), key=clave)
+
+
+def _gemini_modelos(http) -> list[str]:
+    global _modelos
+    if GEMINI_MODEL:
+        return [GEMINI_MODEL]
+    if _modelos is None:
+        try:
+            r = http.get(f"{GEMINI_BASE}/models", headers={"x-goog-api-key": os.environ["GEMINI_API_KEY"]}, params={"pageSize": 200})
+            nombres = [m["name"].split("/")[-1] for m in r.json().get("models", [])
+                       if "generateContent" in m.get("supportedGenerationMethods", [])]
+        except Exception:  # noqa: BLE001
+            nombres = []
+        _modelos = _ordenar_modelos(nombres) or list(GEMINI_RESPALDO)
+        print(f"  modelos Gemini a probar: {', '.join(_modelos[:5])}", flush=True)
+    return _modelos
+
+
+def _espera_sugerida(body: str, defecto: float) -> float:
+    m = re.search(r'"retryDelay":\s*"(\d+(?:\.\d+)?)s"', body)
+    return min(float(m.group(1)) + 2, 90) if m else defecto
+
+
 def _gemini(prompt: str, http=None) -> list[dict]:
-    import time
     import httpx
     http = http or httpx.Client(timeout=180)
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent"
     body = {"contents": [{"role": "user", "parts": [{"text": prompt}]}],
             "generationConfig": {"responseMimeType": "application/json", "temperature": 0.1, "maxOutputTokens": 16000}}
-    for intento in range(5):
-        r = http.post(url, headers={"x-goog-api-key": os.environ["GEMINI_API_KEY"]}, json=body)
-        if r.status_code in (429, 500, 503):
-            time.sleep(20 * (intento + 1))
+    ultimo = "sin respuesta"
+    for modelo in _gemini_modelos(http):
+        if modelo in _agotados:
             continue
-        r.raise_for_status()
-        data = r.json()
-        parts = data.get("candidates", [{}])[0].get("content", {}).get("parts", [])
-        time.sleep(GEMINI_PAUSA_S)
-        return parse_json_text("".join(p.get("text", "") for p in parts))
-    raise RuntimeError("Gemini no respondió tras 5 intentos (límite del plan gratis).")
+        for intento in range(3):
+            r = http.post(f"{GEMINI_BASE}/models/{modelo}:generateContent",
+                          headers={"x-goog-api-key": os.environ["GEMINI_API_KEY"]}, json=body)
+            if r.status_code == 200:
+                data = r.json()
+                parts = data.get("candidates", [{}])[0].get("content", {}).get("parts", [])
+                time.sleep(GEMINI_PAUSA_S)
+                return parse_json_text("".join(p.get("text", "") for p in parts))
+            texto = getattr(r, "text", "") or ""
+            ultimo = f"{modelo} HTTP {r.status_code}: {texto[:300]}"
+            print(f"    Gemini {ultimo}", flush=True)
+            if r.status_code == 429 and ("PerDay" in texto or "limit: 0" in texto or "free_tier" in texto.lower() and "day" in texto.lower()):
+                _agotados.add(modelo)   # sin cuota diaria: probar el siguiente modelo
+                break
+            if r.status_code in (400, 403, 404):
+                if "API key" in texto or "PERMISSION_DENIED" in texto and "model" not in texto.lower():
+                    raise RuntimeError(f"La key de Gemini fue rechazada: {texto[:200]}")
+                _agotados.add(modelo)   # modelo no disponible para esta key
+                break
+            if r.status_code == 429:
+                time.sleep(_espera_sugerida(texto, 30))
+            else:  # 500/503: servidor saturado
+                time.sleep(15 * (intento + 1))
+    raise RuntimeError(f"Gemini no respondió con ningún modelo. Último error: {ultimo}")
 
 
 def _anthropic(prompt: str, client=None) -> list[dict]:
