@@ -1,0 +1,51 @@
+name: Organizar carpetas (una vez)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  organizar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Mover cada archivo a su carpeta
+        run: |
+          set -e
+          mv_if() { if [ -f "$1" ]; then mkdir -p "$(dirname "$2")"; git mv -f "$1" "$2"; echo "$1 -> $2"; fi; }
+          mv_if beneficios.json      data/beneficios.json
+          mv_if manual.json          data/manual.json
+          mv_if retirados.json       data/retirados.json
+          mv_if extract.py           pipeline/extract.py
+          mv_if fetch.py             pipeline/fetch.py
+          mv_if geocode.py           pipeline/geocode.py
+          mv_if merge.py             pipeline/merge.py
+          mv_if models.py            pipeline/models.py
+          mv_if run.py               pipeline/run.py
+          mv_if sources.yaml         pipeline/sources.yaml
+          mv_if build_artifact.py    scripts/build_artifact.py
+          mv_if build_site.py        scripts/build_site.py
+          mv_if test_extract.py      tests/test_extract.py
+          mv_if test_geocode.py      tests/test_geocode.py
+          mv_if test_merge.py        tests/test_merge.py
+          mv_if __init__.py          tests/__init__.py
+          mv_if "__init__ (1).py"    pipeline/__init__.py
+          mv_if app.js               web/app.js
+          mv_if comunas.json         web/comunas.json
+          mv_if config.example.js    web/config.example.js
+          mv_if index.html           web/index.html
+          mv_if map-google.js        web/map-google.js
+          mv_if map-leaflet.js       web/map-leaflet.js
+          mv_if map-svg.js           web/map-svg.js
+          mv_if styles.css           web/styles.css
+          mv_if leaflet.css          web/vendor/leaflet/leaflet.css
+          mv_if leaflet.js           web/vendor/leaflet/leaflet.js
+          mv_if LICENSE              web/vendor/leaflet/LICENSE
+          mv_if download             .gitignore
+          [ -f pipeline/__init__.py ] || { touch pipeline/__init__.py; git add pipeline/__init__.py; }
+          git config user.name "billetera-bot"
+          git config user.email "billetera-bot@users.noreply.github.com"
+          git commit -m "Ordenar archivos en sus carpetas" || echo "Nada que mover"
+          git push
