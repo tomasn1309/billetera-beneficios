@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Mi Billetera de Beneficios</title>
+<meta name="description" content="Beneficios de mis tarjetas y servicios por día, con mapa y ubicación.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=Figtree:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="vendor/leaflet/leaflet.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!--APP-->
+<div class="app">
+  <header class="head">
+    <div>
+      <p class="brand">Mi billetera de beneficios</p>
+      <h1 id="dayTitle">Hoy</h1>
+      <p class="lede" id="lede"></p>
+    </div>
+    <div class="where">
+      <button type="button" class="btn primary" id="locate"><span class="dot" aria-hidden="true"></span>Usar mi ubicación</button>
+      <select id="comuna" aria-label="Elegir comuna"></select>
+      <span class="status" id="whereStatus" role="status"></span>
+    </div>
+  </header>
+
+  <nav class="week" id="week" aria-label="Elegir día de la semana"></nav>
+
+  <div class="filters">
+    <div class="filters" id="provChips" role="group" aria-label="Tarjetas y servicios"></div>
+    <select id="cat" aria-label="Rubro"></select>
+    <input id="q" type="search" placeholder="Buscar comercio" aria-label="Buscar comercio">
+    <label class="toggle"><input type="checkbox" id="nearToggle" disabled> Ordenar por cercanía</label>
+  </div>
+
+  <div class="switch" role="group" aria-label="Vista">
+    <button type="button" id="vList" aria-pressed="true">Lista</button>
+    <button type="button" id="vMap" aria-pressed="false">Mapa</button>
+  </div>
+
+  <div class="main" id="main" data-view="list">
+    <section class="panel listbox" aria-labelledby="listTitle">
+      <div class="listhead"><h2 id="listTitle">Beneficios del día</h2><span id="listCount"></span></div>
+      <div id="list"></div>
+    </section>
+    <section class="panel mapbox" aria-label="Mapa">
+      <div class="maptools">
+        <span id="mapCount"></span>
+        <div class="ctl">
+          <button type="button" id="pick" title="Marcar dónde estoy tocando el mapa">Estoy aquí</button>
+          <button type="button" id="reset">Ver todo</button>
+        </div>
+      </div>
+      <div id="map"></div>
+      <div class="mapcard" id="mapcard" hidden></div>
+      <div class="mapnote" id="mapNote">Las ubicaciones marcadas como aproximadas indican el mall o la comuna del local. Las cadenas con muchos locales aparecen en la lista con un enlace para buscar el más cercano.</div>
+    </section>
+  </div>
+
+  <footer class="foot">
+    <span>Datos actualizados el <b id="updated"></b>. Los beneficios cambian cada mes; lo marcado “Confirma en la app” no se pudo verificar en la última revisión.</span>
+  </footer>
+</div>
+<!--/APP-->
+<script src="config.js"></script>
+<script src="vendor/leaflet/leaflet.js"></script>
+<script src="map-svg.js"></script>
+<script src="map-leaflet.js"></script>
+<script src="map-google.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

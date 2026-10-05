@@ -1,0 +1,7 @@
+_site/
+dist/
+data/raw/
+web/config.js
+__pycache__/
+.pytest_cache/
+.venv/

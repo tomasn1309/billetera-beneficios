@@ -1,0 +1,56 @@
+# Fuentes que revisa el pipeline. Cada proveedor tiene páginas de inicio y, opcionalmente,
+# un patrón de enlaces a seguir (páginas de detalle de cada beneficio).
+# Si un banco cambia su sitio, basta con corregir las URLs o el patrón aquí.
+
+defaults:
+  max_detalle: 40          # máximo de páginas de detalle por proveedor y corrida
+  min_beneficios: 3        # bajo esto la corrida del proveedor se considera fallida
+  min_ratio: 0.4           # si cae a menos del 40% de lo que había, se considera fallida
+  ausencias_para_retirar: 2  # corridas sanas seguidas sin verlo antes de darlo de baja
+
+proveedores:
+  bch:
+    nombre: Banco de Chile
+    color: bch
+    tarjetas_del_usuario: "Tarjetas de crédito y débito Banco de Chile (Visa y Mastercard)"
+    inicio:
+      - https://sitiospublicos.bancochile.cl/personas/beneficios
+      - https://sitiospublicos.bancochile.cl/personas/beneficios/sabores/
+    seguir: "/personas/beneficios/"
+
+  san:
+    nombre: Santander
+    color: san
+    tarjetas_del_usuario: "Tarjetas de crédito y débito Santander (Visa, Mastercard, AMEX, LIMITED, WorldMember)"
+    inicio:
+      - https://banco.santander.cl/beneficios
+      - https://banco.santander.cl/beneficios/descuentos-restaurantes
+    seguir: "/beneficios/"
+
+  fal:
+    nombre: Falabella (CMR / Débito)
+    color: fal
+    tarjetas_del_usuario: "CMR Mastercard (Clásica, Premium, Elite) y Débito Banco Falabella"
+    inicio:
+      - https://www.bancofalabella.cl/descuentos
+      - https://www.bancofalabella.cl/cuponeras
+    seguir: "/descuentos/detalle/"
+
+  cop:
+    nombre: Copec Pay
+    color: cop
+    tarjetas_del_usuario: "Cuenta Copec Pay, tarjeta Copec Pay Mastercard y app Copec"
+    inicio:
+      - https://copecpay.cl/
+      - https://ww2.copec.cl/personas/promociones
+      - https://www.fullcopec.cl/otros-beneficios
+    seguir: null
+
+  ent:
+    nombre: Entel
+    color: ent
+    tarjetas_del_usuario: "Cliente Entel (móvil u hogar)"
+    inicio:
+      - https://www.entel.cl/beneficios
+      - https://help.ticketmaster.cl/hc/es-cl/articles/36585076016273-Beneficios-Entel
+    seguir: "/beneficios/"

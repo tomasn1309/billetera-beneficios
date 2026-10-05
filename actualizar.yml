@@ -1,0 +1,77 @@
+name: Actualizar beneficios
+
+on:
+  schedule:
+    - cron: "0 11 * * 1"   # lunes 08:00 Chile (verano) / 07:00 (invierno)
+    - cron: "0 11 1 * *"   # día 1 de cada mes, cuando los bancos cambian campañas
+  workflow_dispatch:
+    inputs:
+      solo:
+        description: "Proveedores separados por coma (vacío = todos)"
+        required: false
+
+permissions:
+  contents: write
+  issues: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: actualizar
+  cancel-in-progress: false
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: python -m playwright install --with-deps chromium
+      - name: Tests
+        run: python -m pytest -q
+      - name: Correr pipeline
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}          # gratis (aistudio.google.com)
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}    # opcional, pagado
+          GOOGLE_GEOCODING_KEY: ${{ secrets.GOOGLE_GEOCODING_KEY }}  # opcional; sin ella usa OpenStreetMap
+        run: |
+          ARGS=""
+          if [ -n "${{ github.event.inputs.solo }}" ]; then ARGS="--solo ${{ github.event.inputs.solo }}"; fi
+          python -m pipeline.run $ARGS
+      - name: Guardar páginas descargadas (para depurar)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: paginas-descargadas
+          path: data/raw
+          retention-days: 14
+      - name: Publicar cambios en el repo
+        run: |
+          git config user.name "billetera-bot"
+          git config user.email "billetera-bot@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then echo "Sin cambios"; exit 0; fi
+          F=data/cambios/$(TZ=America/Santiago date +%F).md
+          if [ -f "$F" ]; then git commit -F "$F"; else git commit -m "Beneficios actualizados $(date +%F)"; fi
+          git push
+      - name: Avisar si un proveedor sigue fallando
+        if: hashFiles('data/ALERTA.txt') != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TITLE="Scraper con fallas repetidas"
+          NUM=$(gh issue list --state open --search "$TITLE in:title" --json number -q '.[0].number')
+          BODY="$(cat data/ALERTA.txt)
+
+          Revisa el artefacto *paginas-descargadas* de la corrida ${{ github.run_id }} y ajusta pipeline/sources.yaml si el sitio cambió."
+          if [ -n "$NUM" ]; then gh issue comment "$NUM" --body "$BODY"; else gh issue create --title "$TITLE" --body "$BODY"; fi
+
+  desplegar:
+    needs: actualizar
+    uses: ./.github/workflows/pages.yml
+    secrets: inherit
