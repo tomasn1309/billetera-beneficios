@@ -57,3 +57,39 @@ def test_backend_elige_gemini(monkeypatch):
     assert ex.backend() == "gemini"
     monkeypatch.delenv("GEMINI_API_KEY")
     assert ex.backend() == "anthropic"
+
+
+def test_ordena_modelos_flash_estables_primero():
+    from pipeline.extract import _ordenar_modelos
+    out = _ordenar_modelos(["gemini-2.5-pro", "gemini-2.0-flash", "gemini-2.5-flash", "gemini-2.5-flash-lite",
+                            "gemini-3-flash-preview", "gemini-2.5-flash-image", "gemini-embedding-001"])
+    assert out[0] == "gemini-2.5-flash" and "gemini-2.5-pro" not in out and "gemini-2.5-flash-image" not in out
+    assert out.index("gemini-2.0-flash") < out.index("gemini-2.5-flash-lite") < out.index("gemini-3-flash-preview")
+
+
+def test_salta_modelo_sin_cuota(monkeypatch):
+    import pipeline.extract as ex
+    monkeypatch.setenv("GEMINI_API_KEY", "k")
+    monkeypatch.setattr(ex, "GEMINI_PAUSA_S", 0)
+    monkeypatch.setattr(ex, "GEMINI_MODEL", "")
+    monkeypatch.setattr(ex, "_modelos", None)
+    monkeypatch.setattr(ex, "_agotados", set())
+    usados = []
+
+    class R:
+        def __init__(self, code, data=None, text=""): self.status_code, self._d, self.text = code, data, text
+        def json(self): return self._d
+
+    class H:
+        def get(self, url, headers=None, params=None):
+            return R(200, {"models": [{"name": "models/gemini-9-flash", "supportedGenerationMethods": ["generateContent"]},
+                                      {"name": "models/gemini-8-flash", "supportedGenerationMethods": ["generateContent"]}]})
+        def post(self, url, headers, json):
+            usados.append(url)
+            if "gemini-9-flash" in url:
+                return R(429, text='{"error": {"message": "Quota exceeded for metric generate_content_free_tier_requests, limit: 0"}}')
+            return R(200, {"candidates": [{"content": {"parts": [{"text": '{"beneficios": [{"comercio": "X"}]}'}]}}]})
+
+    assert ex._gemini("hola", H()) == [{"comercio": "X"}]
+    assert "gemini-9-flash" in usados[0] and "gemini-8-flash" in usados[1]
+    assert ex._gemini("otra", H()) and "gemini-9-flash" not in usados[2]   # recuerda que estaba agotado
