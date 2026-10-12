@@ -1,0 +1,1 @@
+Proveedores con 2+ corridas fallidas seguidas: bch (solo 0 beneficios (mínimo 3))

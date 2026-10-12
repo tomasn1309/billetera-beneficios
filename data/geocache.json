@@ -1,4 +1,116 @@
 {
+ "addr:alonso de córdova 2337, vitacura": {
+  "fecha": "2026-10-12",
+  "r": {
+   "aprox": true,
+   "direccion": "Alonso de Córdova, Lo Castillo, Vitacura, Santiago, Provincia de Santiago",
+   "lat": -33.401434,
+   "lng": -70.596125,
+   "nombre": "Alonso de Córdova 2337"
+  }
+ },
+ "addr:alonso de córdova 4260, vitacura": {
+  "fecha": "2026-10-12",
+  "r": {
+   "aprox": false,
+   "direccion": "Santa Brasa, 4260, Alonso de Córdova, Lo Castillo, Vitacura, Santiago, Provincia de Santiago",
+   "lat": -33.403112,
+   "lng": -70.588529,
+   "nombre": "Alonso de Córdova 4260"
+  }
+ },
+ "addr:andrés de fuenzalida 48, providencia": {
+  "fecha": "2026-10-12",
+  "r": {
+   "aprox": false,
+   "direccion": "17.56. Cocina y bar, 48, Andrés de Fuenzalida, Barrio Paseo Providencia, Providencia, Provincia de Santiago",
+   "lat": -33.421634,
+   "lng": -70.61123,
+   "nombre": "Andrés de Fuenzalida 48"
+  }
+ },
+ "addr:av. la dehesa 2035, lo barnechea": {
+  "fecha": "2026-10-12",
+  "r": {
+   "aprox": false,
+   "direccion": "Caramleo Jugueteria, 2035, Avenida La Dehesa, Strip Center El Rodeo, La Dehesa, Lo Barnechea, Santiago, Provincia de Santiago",
+   "lat": -33.35219,
+   "lng": -70.518237,
+   "nombre": "Av. La Dehesa 2035"
+  }
+ },
+ "addr:av. manquehue norte 656, las condes": {
+  "fecha": "2026-10-12",
+  "r": {
+   "aprox": true,
+   "direccion": "Avenida Manquehue Norte, Avenida Apoquindo, Barrio El Faro, Las Condes, Santiago, Provincia de Santiago",
+   "lat": -33.408836,
+   "lng": -70.568156,
+   "nombre": "Av. Manquehue norte 656"
+  }
+ },
+ "addr:av. nueva costanera 3835, vitacura": {
+  "fecha": "2026-10-12",
+  "r": {
+   "aprox": false,
+   "direccion": "Japón, 3835, Avenida Nueva Costanera, Lo Castillo, Vitacura, Santiago, Provincia de Santiago",
+   "lat": -33.399498,
+   "lng": -70.597626,
+   "nombre": "Av. Nueva Costanera 3835"
+  }
+ },
+ "addr:av. pdte. kennedy 9351, las condes": {
+  "fecha": "2026-10-12",
+  "r": {
+   "aprox": true,
+   "direccion": "Avenida Las Condes / esq. Av. Pdte. Kennedy, Avenida Las Condes, Estoril, Las Condes, Santiago, Provincia de Santiago",
+   "lat": -33.387019,
+   "lng": -70.538324,
+   "nombre": "Av. Pdte. Kennedy 9351"
+  }
+ },
+ "addr:boulevard los ingleses de chicureo, local 16, colina": {
+  "fecha": "2026-10-12",
+  "r": null
+ },
+ "addr:decher 161, puerto varas": {
+  "fecha": "2026-10-12",
+  "r": null
+ },
+ "addr:el coihue 3807, vitacura": {
+  "fecha": "2026-10-12",
+  "r": {
+   "aprox": false,
+   "direccion": "3807, El Coihue, Lo Castillo, Vitacura, Santiago, Provincia de Santiago",
+   "lat": -33.401753,
+   "lng": -70.592225,
+   "nombre": "El Coihue 3807"
+  }
+ },
+ "addr:el rodeo 13332, lo barnechea": {
+  "fecha": "2026-10-12",
+  "r": {
+   "aprox": true,
+   "direccion": "13332, Avenida El Rodeo, Pueblito de Lo Barnechea, La Dehesa, Lo Barnechea, Santiago, Provincia de Santiago",
+   "lat": -33.351779,
+   "lng": -70.512794,
+   "nombre": "El Rodeo 13332"
+  }
+ },
+ "addr:san sebastian 2800, las condes": {
+  "fecha": "2026-10-12",
+  "r": {
+   "aprox": false,
+   "direccion": "2800, San Sebastián, Sanhattan, Las Condes, Santiago, Provincia de Santiago",
+   "lat": -33.415804,
+   "lng": -70.601882,
+   "nombre": "San Sebastian 2800"
+  }
+ },
+ "addr:suecia 0155, local 102, providencia": {
+  "fecha": "2026-10-12",
+  "r": null
+ },
  "places:abrasas": {
   "fecha": "2026-10-05",
   "r": []
@@ -55,8 +167,58 @@
    }
   ]
  },
+ "places:barrio chick'en": {
+  "fecha": "2026-10-12",
+  "r": []
+ },
+ "places:bianco latte": {
+  "fecha": "2026-10-12",
+  "r": []
+ },
+ "places:boost": {
+  "fecha": "2026-10-12",
+  "r": []
+ },
+ "places:buffalo waffles": {
+  "fecha": "2026-10-12",
+  "r": [
+   {
+    "aprox": false,
+    "direccion": "Avenida Pedro de Valdivia 2060, Providencia",
+    "lat": -33.44154,
+    "lng": -70.606642,
+    "nombre": "Buffalo Waffles"
+   },
+   {
+    "aprox": false,
+    "direccion": "Merced 313",
+    "lat": -33.43712,
+    "lng": -70.64139,
+    "nombre": "Buffalo Waffles"
+   },
+   {
+    "aprox": false,
+    "direccion": "Avenida Holanda 073, Providencia",
+    "lat": -33.41849,
+    "lng": -70.604456,
+    "nombre": "Buffalo Waffles Cafe"
+   }
+  ]
+ },
  "places:burger king": {
   "fecha": "2026-10-05",
+  "r": []
+ },
+ "places:caffe pascucci": {
+  "fecha": "2026-10-12",
+  "r": []
+ },
+ "places:carnes a punto": {
+  "fecha": "2026-10-12",
+  "r": []
+ },
+ "places:churromania": {
+  "fecha": "2026-10-12",
   "r": []
  },
  "places:cinemark": {
@@ -75,8 +237,113 @@
   "fecha": "2026-10-05",
   "r": []
  },
+ "places:doggis": {
+  "fecha": "2026-10-12",
+  "r": [
+   {
+    "aprox": false,
+    "direccion": "Doggis",
+    "lat": -33.453803,
+    "lng": -70.688603,
+    "nombre": "Doggis"
+   },
+   {
+    "aprox": false,
+    "direccion": "Doggis",
+    "lat": -33.440067,
+    "lng": -70.648635,
+    "nombre": "Doggis"
+   },
+   {
+    "aprox": false,
+    "direccion": "Ramón Freire, San Bernardo",
+    "lat": -33.593098,
+    "lng": -70.704205,
+    "nombre": "Doggis"
+   },
+   {
+    "aprox": false,
+    "direccion": "Vicente Valdés 87",
+    "lat": -33.527063,
+    "lng": -70.596257,
+    "nombre": "Doggis"
+   },
+   {
+    "aprox": false,
+    "direccion": "Doggis",
+    "lat": -33.519854,
+    "lng": -70.601976,
+    "nombre": "Doggis"
+   },
+   {
+    "aprox": false,
+    "direccion": "Doggis",
+    "lat": -33.451538,
+    "lng": -70.663891,
+    "nombre": "Doggis"
+   },
+   {
+    "aprox": false,
+    "direccion": "Gran Avenida José Miguel Carrera 10375, El Bosque",
+    "lat": -33.553049,
+    "lng": -70.676442,
+    "nombre": "Doggis"
+   },
+   {
+    "aprox": false,
+    "direccion": "Doggis",
+    "lat": -33.519622,
+    "lng": -70.594616,
+    "nombre": "Doggis"
+   },
+   {
+    "aprox": false,
+    "direccion": "Avenida Américo Vespucio 1737, Huechuraba",
+    "lat": -33.364693,
+    "lng": -70.678957,
+    "nombre": "Doggis"
+   },
+   {
+    "aprox": false,
+    "direccion": "Doggis",
+    "lat": -33.414104,
+    "lng": -70.585165,
+    "nombre": "Doggis"
+   },
+   {
+    "aprox": false,
+    "direccion": "Avenida Andrés Bello 2461, Providencia",
+    "lat": -33.417824,
+    "lng": -70.606356,
+    "nombre": "Doggis"
+   },
+   {
+    "aprox": false,
+    "direccion": "Doggis",
+    "lat": -33.456651,
+    "lng": -70.705124,
+    "nombre": "Doggis"
+   }
+  ]
+ },
+ "places:domino's pizza": {
+  "fecha": "2026-10-12",
+  "r": []
+ },
+ "places:dulcentorno": {
+  "fecha": "2026-10-12",
+  "r": []
+ },
  "places:dunkin'": {
   "fecha": "2026-10-05",
+  "r": []
+ },
+ "places:el mundo del vino": {
+  "fecha": "2026-10-12",
+  "r": []
+ },
+ "places:emporio la rosa": {
+  "fecha": "2026-10-12",
   "r": []
  },
  "places:entel": {
@@ -176,12 +443,28 @@
   "fecha": "2026-10-05",
   "r": []
  },
+ "places:figurella": {
+  "fecha": "2026-10-12",
+  "r": [
+   {
+    "aprox": false,
+    "direccion": "Avenida Cristóbal Colón",
+    "lat": -33.419434,
+    "lng": -70.573486,
+    "nombre": "Figurella"
+   }
+  ]
+ },
  "places:fork": {
   "fecha": "2026-10-05",
   "r": []
  },
  "places:green lab": {
   "fecha": "2026-10-05",
+  "r": []
+ },
+ "places:happyland": {
+  "fecha": "2026-10-12",
   "r": []
  },
  "places:il mascarpone": {
@@ -191,6 +474,50 @@
  "places:juan maestro": {
   "fecha": "2026-10-05",
   "r": []
+ },
+ "places:juan valdez": {
+  "fecha": "2026-10-12",
+  "r": []
+ },
+ "places:just burger": {
+  "fecha": "2026-10-12",
+  "r": [
+   {
+    "aprox": false,
+    "direccion": "Just Burger",
+    "lat": -33.453355,
+    "lng": -70.660803,
+    "nombre": "Just Burger"
+   },
+   {
+    "aprox": false,
+    "direccion": "Avenida Príncipe de Gales 6853, La Reina",
+    "lat": -33.438949,
+    "lng": -70.561236,
+    "nombre": "Just Burger"
+   },
+   {
+    "aprox": false,
+    "direccion": "Avenida Pedro Fontova 6651, Huechuraba",
+    "lat": -33.361573,
+    "lng": -70.670299,
+    "nombre": "Just Burger"
+   },
+   {
+    "aprox": false,
+    "direccion": "Avenida Américo Vespucio 3300, Peñalolén",
+    "lat": -33.488343,
+    "lng": -70.577524,
+    "nombre": "Just Burger"
+   },
+   {
+    "aprox": false,
+    "direccion": "Avenida Presidente Sebastián Piñera Echenique 999",
+    "lat": -33.41761,
+    "lng": -70.553769,
+    "nombre": "Just Burger"
+   }
+  ]
  },
  "places:ka": {
   "fecha": "2026-10-05",
@@ -289,6 +616,14 @@
   "fecha": "2026-10-05",
   "r": []
  },
+ "places:le vice": {
+  "fecha": "2026-10-12",
+  "r": []
+ },
+ "places:leonidas": {
+  "fecha": "2026-10-12",
+  "r": []
+ },
  "places:lippi": {
   "fecha": "2026-10-05",
   "r": [
@@ -350,12 +685,39 @@
    }
   ]
  },
+ "places:mallplaza": {
+  "fecha": "2026-10-12",
+  "r": [
+   {
+    "aprox": false,
+    "direccion": "Avenida Vicuña Mackenna Oriente 7110, La Florida",
+    "lat": -33.517557,
+    "lng": -70.597727,
+    "nombre": "Mall Plaza Vespucio"
+   },
+   {
+    "aprox": false,
+    "direccion": "Presidente Jorge Alessandri Rodríguez 20040, San Bernardo",
+    "lat": -33.63217,
+    "lng": -70.709604,
+    "nombre": "Mallplaza Sur"
+   }
+  ]
+ },
  "places:mamut": {
   "fecha": "2026-10-05",
   "r": []
  },
+ "places:mcdonald's": {
+  "fecha": "2026-10-12",
+  "r": []
+ },
  "places:melt pizzas": {
   "fecha": "2026-10-05",
+  "r": []
+ },
+ "places:minami sushi": {
+  "fecha": "2026-10-12",
   "r": []
  },
  "places:miércoles de sabores": {
@@ -366,8 +728,44 @@
   "fecha": "2026-10-05",
   "r": []
  },
+ "places:mr sushi": {
+  "fecha": "2026-10-12",
+  "r": []
+ },
+ "places:mr. pretzels": {
+  "fecha": "2026-10-12",
+  "r": [
+   {
+    "aprox": false,
+    "direccion": "Avenida Presidente Kennedy 5413",
+    "lat": -33.402804,
+    "lng": -70.578082,
+    "nombre": "Mr. Pretzels"
+   }
+  ]
+ },
+ "places:palettas": {
+  "fecha": "2026-10-12",
+  "r": [
+   {
+    "aprox": false,
+    "direccion": "Avenida Presidente Jorge Alessandri Rodríguez 20040, San Bernardo",
+    "lat": -33.631754,
+    "lng": -70.711623,
+    "nombre": "Palettas"
+   }
+  ]
+ },
  "places:papa johns": {
   "fecha": "2026-10-05",
+  "r": []
+ },
+ "places:rally kart": {
+  "fecha": "2026-10-12",
+  "r": []
+ },
+ "places:relativo": {
+  "fecha": "2026-10-12",
   "r": []
  },
  "places:restaurantes platinum": {
@@ -376,6 +774,18 @@
  },
  "places:sakura": {
   "fecha": "2026-10-05",
+  "r": []
+ },
+ "places:street wrap": {
+  "fecha": "2026-10-12",
+  "r": []
+ },
+ "places:sushi ryge": {
+  "fecha": "2026-10-12",
+  "r": []
+ },
+ "places:takoi": {
+  "fecha": "2026-10-12",
   "r": []
  },
  "places:the body shop": {
@@ -450,6 +860,10 @@
  },
  "places:velvet bakery": {
   "fecha": "2026-10-05",
+  "r": []
+ },
+ "places:yogen fruz": {
+  "fecha": "2026-10-12",
   "r": []
  }
 }

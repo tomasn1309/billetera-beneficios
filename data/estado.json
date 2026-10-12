@@ -1,25 +1,29 @@
 {
  "proveedores": {
   "bch": {
-   "fallas_consecutivas": 1,
-   "ultimo_error": "RuntimeError: Gemini no respondió tras 5 intentos (límite del plan gratis)."
+   "fallas_consecutivas": 2,
+   "ultimo_error": "solo 0 beneficios (mínimo 3)"
   },
   "san": {
-   "fallas_consecutivas": 1,
-   "ultimo_error": "ninguna página descargó (https://banco.santander.cl/beneficios: HTTP 403; https://banco.santander.cl/beneficios/descuentos-restaurantes: HTTP 403)"
+   "fallas_consecutivas": 0,
+   "ultimo_error": null,
+   "ultimo_ok": "2026-10-12"
   },
   "fal": {
-   "fallas_consecutivas": 1,
-   "ultimo_error": "RuntimeError: Gemini no respondió tras 5 intentos (límite del plan gratis)."
+   "fallas_consecutivas": 0,
+   "ultimo_error": null,
+   "ultimo_ok": "2026-10-12"
   },
   "cop": {
-   "fallas_consecutivas": 1,
-   "ultimo_error": "RuntimeError: Gemini no respondió tras 5 intentos (límite del plan gratis)."
+   "fallas_consecutivas": 0,
+   "ultimo_error": null,
+   "ultimo_ok": "2026-10-12"
   },
   "ent": {
-   "fallas_consecutivas": 1,
-   "ultimo_error": "RuntimeError: Gemini no respondió tras 5 intentos (límite del plan gratis)."
+   "fallas_consecutivas": 0,
+   "ultimo_error": null,
+   "ultimo_ok": "2026-10-12"
   }
  },
- "ultima_corrida": "2026-10-04"
+ "ultima_corrida": "2026-10-12"
 }
