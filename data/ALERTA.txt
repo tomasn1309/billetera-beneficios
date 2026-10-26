@@ -1,1 +1,1 @@
-Proveedores con 2+ corridas fallidas seguidas: bch (solo 0 beneficios (mínimo 3))
+Proveedores con 2+ corridas fallidas seguidas: bch (ReadTimeout: The read operation timed out)

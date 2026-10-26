@@ -1,3 +1,520 @@
 {
- "beneficios": []
+ "beneficios": [
+  {
+   "id": "san-avatar-sushi-5",
+   "proveedor": "san",
+   "comercio": "Avatar Sushi",
+   "categoria": "rest",
+   "descuento": "40%",
+   "descuento_valor": 40,
+   "detalle": "Región Metropolitana.",
+   "dias": [
+    5
+   ],
+   "tarjetas": "Visa / MC Santander",
+   "tope": null,
+   "canal": "Presencial",
+   "cadena": true,
+   "ubicaciones": [
+    {
+     "nombre": "Avatar Sushi",
+     "direccion": "Avatar Sushi",
+     "lat": -33.455726,
+     "lng": -70.594256,
+     "aprox": false
+    }
+   ],
+   "vigencia_hasta": null,
+   "verificado": null,
+   "fuente": "https://banco.santander.cl/beneficios/descuentos-restaurantes",
+   "estado": "retirado",
+   "primer_visto": "2026-10-04",
+   "ultimo_visto": "2026-10-04",
+   "ausencias": 2,
+   "origen": "semilla",
+   "direcciones": [],
+   "retirado": "2026-10-26",
+   "motivo_baja": "ya no aparece en la fuente"
+  },
+  {
+   "id": "san-curacaribs-0",
+   "proveedor": "san",
+   "comercio": "CuracaRibs",
+   "categoria": "rest",
+   "descuento": "40%",
+   "descuento_valor": 40,
+   "detalle": "Pedido online en la web del restaurante.",
+   "dias": [
+    0
+   ],
+   "tarjetas": "Visa / MC Santander",
+   "tope": "$40.000 por RUT al mes",
+   "canal": "Online",
+   "cadena": true,
+   "ubicaciones": [],
+   "vigencia_hasta": null,
+   "verificado": null,
+   "fuente": "https://banco.santander.cl/beneficios/descuentos-restaurantes",
+   "estado": "retirado",
+   "primer_visto": "2026-10-04",
+   "ultimo_visto": "2026-10-04",
+   "ausencias": 2,
+   "origen": "semilla",
+   "direcciones": [],
+   "retirado": "2026-10-26",
+   "motivo_baja": "ya no aparece en la fuente"
+  },
+  {
+   "id": "san-dagan-1",
+   "proveedor": "san",
+   "comercio": "Dagan",
+   "categoria": "rest",
+   "descuento": "50%",
+   "descuento_valor": 50,
+   "detalle": "Cocina mediterránea.",
+   "dias": [
+    1
+   ],
+   "tarjetas": "AMEX Santander",
+   "tope": null,
+   "canal": "Presencial",
+   "cadena": true,
+   "ubicaciones": [],
+   "vigencia_hasta": null,
+   "verificado": null,
+   "fuente": "https://banco.santander.cl/beneficios/descuentos-restaurantes",
+   "estado": "retirado",
+   "primer_visto": "2026-10-04",
+   "ultimo_visto": "2026-10-04",
+   "ausencias": 2,
+   "origen": "semilla",
+   "direcciones": [],
+   "retirado": "2026-10-26",
+   "motivo_baja": "ya no aparece en la fuente"
+  },
+  {
+   "id": "san-dominga-nikkei-3",
+   "proveedor": "san",
+   "comercio": "Dominga Nikkei",
+   "categoria": "rest",
+   "descuento": "50%",
+   "descuento_valor": 50,
+   "detalle": "Nikkei.",
+   "dias": [
+    3
+   ],
+   "tarjetas": "AMEX Santander",
+   "tope": null,
+   "canal": "Presencial",
+   "cadena": false,
+   "ubicaciones": [
+    {
+     "nombre": "Vitacura",
+     "direccion": "Vitacura",
+     "lat": -33.3985,
+     "lng": -70.599,
+     "aprox": true
+    }
+   ],
+   "vigencia_hasta": null,
+   "verificado": null,
+   "fuente": "https://banco.santander.cl/beneficios/descuentos-restaurantes",
+   "estado": "retirado",
+   "primer_visto": "2026-10-04",
+   "ultimo_visto": "2026-10-04",
+   "ausencias": 2,
+   "origen": "semilla",
+   "direcciones": [],
+   "retirado": "2026-10-26",
+   "motivo_baja": "ya no aparece en la fuente"
+  },
+  {
+   "id": "san-domino-1",
+   "proveedor": "san",
+   "comercio": "Dominó",
+   "categoria": "comida",
+   "descuento": "40%",
+   "descuento_valor": 40,
+   "detalle": "40% en App Club Dominó (cupón BANCO SANTANDER); 20% en locales.",
+   "dias": [
+    1
+   ],
+   "tarjetas": "Crédito Santander",
+   "tope": null,
+   "canal": "App",
+   "cadena": true,
+   "ubicaciones": [],
+   "vigencia_hasta": null,
+   "verificado": null,
+   "fuente": "https://banco.santander.cl/beneficios/descuentos-restaurantes",
+   "estado": "retirado",
+   "primer_visto": "2026-10-04",
+   "ultimo_visto": "2026-10-04",
+   "ausencias": 2,
+   "origen": "semilla",
+   "direcciones": [],
+   "retirado": "2026-10-26",
+   "motivo_baja": "ya no aparece en la fuente"
+  },
+  {
+   "id": "san-fork-diario",
+   "proveedor": "san",
+   "comercio": "Fork",
+   "categoria": "rest",
+   "descuento": "15% / 25%",
+   "descuento_valor": 15,
+   "detalle": "15% de lunes a jueves y 25% viernes a domingo en +250 locales Fork. Alianza vigente todo 2026.",
+   "dias": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "tarjetas": "Crédito y débito Santander",
+   "tope": null,
+   "canal": "Presencial",
+   "cadena": true,
+   "ubicaciones": [],
+   "vigencia_hasta": "2026-12-31",
+   "verificado": null,
+   "fuente": "https://banco.santander.cl/beneficios/descuentos-restaurantes",
+   "estado": "retirado",
+   "primer_visto": "2026-10-04",
+   "ultimo_visto": "2026-10-04",
+   "ausencias": 2,
+   "origen": "semilla",
+   "direcciones": [],
+   "retirado": "2026-10-26",
+   "motivo_baja": "ya no aparece en la fuente"
+  },
+  {
+   "id": "san-green-lab-6",
+   "proveedor": "san",
+   "comercio": "Green Lab",
+   "categoria": "rest",
+   "descuento": "40%",
+   "descuento_valor": 40,
+   "detalle": "Cocina saludable y brunch.",
+   "dias": [
+    6
+   ],
+   "tarjetas": "Visa / MC Santander",
+   "tope": null,
+   "canal": "Presencial",
+   "cadena": true,
+   "ubicaciones": [],
+   "vigencia_hasta": null,
+   "verificado": null,
+   "fuente": "https://banco.santander.cl/beneficios/descuentos-restaurantes",
+   "estado": "retirado",
+   "primer_visto": "2026-10-04",
+   "ultimo_visto": "2026-10-04",
+   "ausencias": 2,
+   "origen": "semilla",
+   "direcciones": [],
+   "retirado": "2026-10-26",
+   "motivo_baja": "ya no aparece en la fuente"
+  },
+  {
+   "id": "san-jeronimo-0",
+   "proveedor": "san",
+   "comercio": "Jerónimo",
+   "categoria": "rest",
+   "descuento": "50%",
+   "descuento_valor": 50,
+   "detalle": "Cocina de autor.",
+   "dias": [
+    0
+   ],
+   "tarjetas": "AMEX Santander",
+   "tope": "$40.000–$50.000",
+   "canal": "Presencial",
+   "cadena": false,
+   "ubicaciones": [
+    {
+     "nombre": "Vitacura",
+     "direccion": "Vitacura",
+     "lat": -33.3985,
+     "lng": -70.599,
+     "aprox": true
+    }
+   ],
+   "vigencia_hasta": null,
+   "verificado": null,
+   "fuente": "https://banco.santander.cl/beneficios/descuentos-restaurantes",
+   "estado": "retirado",
+   "primer_visto": "2026-10-04",
+   "ultimo_visto": "2026-10-04",
+   "ausencias": 2,
+   "origen": "semilla",
+   "direcciones": [],
+   "retirado": "2026-10-26",
+   "motivo_baja": "ya no aparece en la fuente"
+  },
+  {
+   "id": "san-ka-0",
+   "proveedor": "san",
+   "comercio": "KA",
+   "categoria": "rest",
+   "descuento": "50%",
+   "descuento_valor": 50,
+   "detalle": "Restaurante con vista.",
+   "dias": [
+    0
+   ],
+   "tarjetas": "AMEX Santander",
+   "tope": null,
+   "canal": "Presencial",
+   "cadena": true,
+   "ubicaciones": [
+    {
+     "nombre": "KA",
+     "direccion": "KA",
+     "lat": -33.380928,
+     "lng": -70.543363,
+     "aprox": false
+    },
+    {
+     "nombre": "Karai",
+     "direccion": "Isidora Goyenechea 3000, Las Condes",
+     "lat": -33.414082,
+     "lng": -70.598193,
+     "aprox": false
+    },
+    {
+     "nombre": "Kawel / Los Mares",
+     "direccion": "Kawel / Los Mares",
+     "lat": -33.467073,
+     "lng": -70.744702,
+     "aprox": false
+    },
+    {
+     "nombre": "Kabala",
+     "direccion": "José Victorino Lastarria",
+     "lat": -33.439649,
+     "lng": -70.640925,
+     "aprox": false
+    },
+    {
+     "nombre": "Karina Díaz",
+     "direccion": "Karina Díaz",
+     "lat": -33.600772,
+     "lng": -70.580566,
+     "aprox": false
+    },
+    {
+     "nombre": "Kairos",
+     "direccion": "Avenida Vicuña Mackenna Oriente 7110, La Florida",
+     "lat": -33.516976,
+     "lng": -70.596756,
+     "aprox": false
+    },
+    {
+     "nombre": "Kamaleon Bikes",
+     "direccion": "Crescente Errazuriz 335",
+     "lat": -33.457383,
+     "lng": -70.626174,
+     "aprox": false
+    },
+    {
+     "nombre": "Kayser",
+     "direccion": "Avenida Recoleta",
+     "lat": -33.429748,
+     "lng": -70.647036,
+     "aprox": false
+    },
+    {
+     "nombre": "Kamadi",
+     "direccion": "Avenida Vitacura, Vitacura",
+     "lat": -33.395691,
+     "lng": -70.580893,
+     "aprox": false
+    },
+    {
+     "nombre": "Karmi",
+     "direccion": "Gamero",
+     "lat": -33.421777,
+     "lng": -70.664552,
+     "aprox": false
+    },
+    {
+     "nombre": "Kayser",
+     "direccion": "Avenida Providencia, Providencia",
+     "lat": -33.419118,
+     "lng": -70.603308,
+     "aprox": false
+    },
+    {
+     "nombre": "Kati",
+     "direccion": "Kati",
+     "lat": -33.371397,
+     "lng": -70.635471,
+     "aprox": false
+    }
+   ],
+   "vigencia_hasta": null,
+   "verificado": null,
+   "fuente": "https://banco.santander.cl/beneficios/descuentos-restaurantes",
+   "estado": "retirado",
+   "primer_visto": "2026-10-04",
+   "ultimo_visto": "2026-10-04",
+   "ausencias": 2,
+   "origen": "semilla",
+   "direcciones": [],
+   "retirado": "2026-10-26",
+   "motivo_baja": "ya no aparece en la fuente"
+  },
+  {
+   "id": "san-kato-5",
+   "proveedor": "san",
+   "comercio": "Kato",
+   "categoria": "rest",
+   "descuento": "50%",
+   "descuento_valor": 50,
+   "detalle": "Cocina de autor.",
+   "dias": [
+    5
+   ],
+   "tarjetas": "AMEX Santander",
+   "tope": null,
+   "canal": "Presencial",
+   "cadena": true,
+   "ubicaciones": [],
+   "vigencia_hasta": null,
+   "verificado": null,
+   "fuente": "https://banco.santander.cl/beneficios/descuentos-restaurantes",
+   "estado": "retirado",
+   "primer_visto": "2026-10-04",
+   "ultimo_visto": "2026-10-04",
+   "ausencias": 2,
+   "origen": "semilla",
+   "direcciones": [],
+   "retirado": "2026-10-26",
+   "motivo_baja": "ya no aparece en la fuente"
+  },
+  {
+   "id": "san-miscelaneo-4",
+   "proveedor": "san",
+   "comercio": "Misceláneo",
+   "categoria": "rest",
+   "descuento": "50%",
+   "descuento_valor": 50,
+   "detalle": "Coctelería y cocina de autor.",
+   "dias": [
+    4
+   ],
+   "tarjetas": "AMEX Santander",
+   "tope": "$40.000–$50.000",
+   "canal": "Presencial",
+   "cadena": false,
+   "ubicaciones": [
+    {
+     "nombre": "Santa María de Manquehue",
+     "direccion": "Santa María de Manquehue, Vitacura",
+     "lat": -33.385,
+     "lng": -70.57,
+     "aprox": true
+    }
+   ],
+   "vigencia_hasta": null,
+   "verificado": null,
+   "fuente": "https://banco.santander.cl/beneficios/descuentos-restaurantes",
+   "estado": "retirado",
+   "primer_visto": "2026-10-04",
+   "ultimo_visto": "2026-10-04",
+   "ausencias": 2,
+   "origen": "semilla",
+   "direcciones": [],
+   "retirado": "2026-10-26",
+   "motivo_baja": "ya no aparece en la fuente"
+  },
+  {
+   "id": "san-miercoles-de-sabores-2",
+   "proveedor": "san",
+   "comercio": "Miércoles de Sabores",
+   "categoria": "rest",
+   "descuento": "40%",
+   "descuento_valor": 40,
+   "detalle": "Chili's, Pizza Hut, P.F. Chang's, Sumo Pizza y +250 restaurantes. AMEX llega a 50% en cocina de autor.",
+   "dias": [
+    2
+   ],
+   "tarjetas": "Visa / MC Santander",
+   "tope": "$20.000–$30.000",
+   "canal": "Presencial",
+   "cadena": true,
+   "ubicaciones": [],
+   "vigencia_hasta": null,
+   "verificado": null,
+   "fuente": "https://banco.santander.cl/beneficios/descuentos-restaurantes",
+   "estado": "retirado",
+   "primer_visto": "2026-10-04",
+   "ultimo_visto": "2026-10-04",
+   "ausencias": 2,
+   "origen": "semilla",
+   "direcciones": [],
+   "retirado": "2026-10-26",
+   "motivo_baja": "ya no aparece en la fuente"
+  },
+  {
+   "id": "san-sakura-4",
+   "proveedor": "san",
+   "comercio": "Sakura",
+   "categoria": "rest",
+   "descuento": "40%",
+   "descuento_valor": 40,
+   "detalle": "Cocina japonesa.",
+   "dias": [
+    4
+   ],
+   "tarjetas": "Santander LIMITED",
+   "tope": null,
+   "canal": "Presencial",
+   "cadena": true,
+   "ubicaciones": [],
+   "vigencia_hasta": null,
+   "verificado": null,
+   "fuente": "https://banco.santander.cl/beneficios/descuentos-restaurantes",
+   "estado": "retirado",
+   "primer_visto": "2026-10-04",
+   "ultimo_visto": "2026-10-04",
+   "ausencias": 2,
+   "origen": "semilla",
+   "direcciones": [],
+   "retirado": "2026-10-26",
+   "motivo_baja": "ya no aparece en la fuente"
+  },
+  {
+   "id": "san-vapiano-13",
+   "proveedor": "san",
+   "comercio": "Vapiano",
+   "categoria": "rest",
+   "descuento": "40%",
+   "descuento_valor": 40,
+   "detalle": "Italiana casual.",
+   "dias": [
+    1,
+    3
+   ],
+   "tarjetas": "Visa / MC Santander",
+   "tope": "$20.000–$30.000",
+   "canal": "Presencial",
+   "cadena": true,
+   "ubicaciones": [],
+   "vigencia_hasta": null,
+   "verificado": null,
+   "fuente": "https://banco.santander.cl/beneficios/descuentos-restaurantes",
+   "estado": "retirado",
+   "primer_visto": "2026-10-04",
+   "ultimo_visto": "2026-10-04",
+   "ausencias": 2,
+   "origen": "semilla",
+   "direcciones": [],
+   "retirado": "2026-10-26",
+   "motivo_baja": "ya no aparece en la fuente"
+  }
+ ]
 }

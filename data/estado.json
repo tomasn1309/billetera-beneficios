@@ -1,29 +1,29 @@
 {
  "proveedores": {
   "bch": {
-   "fallas_consecutivas": 2,
-   "ultimo_error": "solo 0 beneficios (mínimo 3)"
+   "fallas_consecutivas": 3,
+   "ultimo_error": "ReadTimeout: The read operation timed out"
   },
   "san": {
    "fallas_consecutivas": 0,
    "ultimo_error": null,
-   "ultimo_ok": "2026-10-12"
+   "ultimo_ok": "2026-10-26"
   },
   "fal": {
-   "fallas_consecutivas": 0,
-   "ultimo_error": null,
+   "fallas_consecutivas": 1,
+   "ultimo_error": "ReadTimeout: The read operation timed out",
    "ultimo_ok": "2026-10-12"
   },
   "cop": {
-   "fallas_consecutivas": 0,
-   "ultimo_error": null,
+   "fallas_consecutivas": 1,
+   "ultimo_error": "ReadTimeout: The read operation timed out",
    "ultimo_ok": "2026-10-12"
   },
   "ent": {
-   "fallas_consecutivas": 0,
-   "ultimo_error": null,
+   "fallas_consecutivas": 1,
+   "ultimo_error": "ReadTimeout: The read operation timed out",
    "ultimo_ok": "2026-10-12"
   }
  },
- "ultima_corrida": "2026-10-12"
+ "ultima_corrida": "2026-10-26"
 }

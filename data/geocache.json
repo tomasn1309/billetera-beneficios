@@ -1,4 +1,14 @@
 {
+ "addr:alonso de cordova 3854, vitacura": {
+  "fecha": "2026-10-26",
+  "r": {
+   "aprox": false,
+   "direccion": "3854, Alonso de Córdova, Lo Castillo, Vitacura, Santiago, Provincia de Santiago",
+   "lat": -33.402212,
+   "lng": -70.592149,
+   "nombre": "Alonso de Cordova 3854"
+  }
+ },
  "addr:alonso de córdova 2337, vitacura": {
   "fecha": "2026-10-12",
   "r": {
@@ -19,6 +29,16 @@
    "nombre": "Alonso de Córdova 4260"
   }
  },
+ "addr:alonso de córdova 4355, vitacura": {
+  "fecha": "2026-10-26",
+  "r": {
+   "aprox": false,
+   "direccion": "4355, Alonso de Córdova, Vitacura, Santiago, Provincia de Santiago",
+   "lat": -33.404145,
+   "lng": -70.587691,
+   "nombre": "Alonso de Córdova 4355"
+  }
+ },
  "addr:andrés de fuenzalida 48, providencia": {
   "fecha": "2026-10-12",
   "r": {
@@ -27,6 +47,36 @@
    "lat": -33.421634,
    "lng": -70.61123,
    "nombre": "Andrés de Fuenzalida 48"
+  }
+ },
+ "addr:av padre hurtado nte 1480, vitacura": {
+  "fecha": "2026-10-26",
+  "r": {
+   "aprox": true,
+   "direccion": "Avenida Padre Hurtado Norte, El Dorado, Vitacura, Santiago, Provincia de Santiago",
+   "lat": -33.389118,
+   "lng": -70.548689,
+   "nombre": "Av Padre Hurtado Nte 1480"
+  }
+ },
+ "addr:av. americo vespucio norte 014, las condes": {
+  "fecha": "2026-10-26",
+  "r": {
+   "aprox": true,
+   "direccion": "Avenida Américo Vespucio Norte, Las Condes, Santiago, Provincia de Santiago",
+   "lat": -33.414259,
+   "lng": -70.584817,
+   "nombre": "Av. Americo Vespucio Norte 014"
+  }
+ },
+ "addr:av. el rodeo 13.330, lo barnechea": {
+  "fecha": "2026-10-26",
+  "r": {
+   "aprox": true,
+   "direccion": "Avenida El Rodeo, Cerro Dieciocho, Lo Barnechea, Santiago, Provincia de Santiago",
+   "lat": -33.352665,
+   "lng": -70.501332,
+   "nombre": "Av. El Rodeo 13.330"
   }
  },
  "addr:av. la dehesa 2035, lo barnechea": {
@@ -97,6 +147,30 @@
    "nombre": "El Rodeo 13332"
   }
  },
+ "addr:jorge washington 70, ñuñoa": {
+  "fecha": "2026-10-26",
+  "r": {
+   "aprox": false,
+   "direccion": "Alambique del aji seco, 70, Jorge Washington, Barrio Plaza Ñuñoa, Ñuñoa, Santiago, Provincia de Santiago",
+   "lat": -33.454403,
+   "lng": -70.594379,
+   "nombre": "Jorge Washington 70"
+  }
+ },
+ "addr:manquehue norte 958, las condes": {
+  "fecha": "2026-10-26",
+  "r": {
+   "aprox": true,
+   "direccion": "Av. Manquehue Norte / Esq. Los Militares, Avenida Manquehue, Barrio El Faro, Las Condes, Santiago, Provincia de Santiago",
+   "lat": -33.405434,
+   "lng": -70.568403,
+   "nombre": "Manquehue Norte 958"
+  }
+ },
+ "addr:ricardo cumming 277, providencia": {
+  "fecha": "2026-10-26",
+  "r": null
+ },
  "addr:san sebastian 2800, las condes": {
   "fecha": "2026-10-12",
   "r": {
@@ -110,6 +184,16 @@
  "addr:suecia 0155, local 102, providencia": {
   "fecha": "2026-10-12",
   "r": null
+ },
+ "addr:vicuña mackenna 11.460, la florida": {
+  "fecha": "2026-10-26",
+  "r": {
+   "aprox": true,
+   "direccion": "Edificio Parque Vicuña Mackenna, La Florida, Santiago, Provincia de Santiago",
+   "lat": -33.559364,
+   "lng": -70.587749,
+   "nombre": "Vicuña Mackenna 11.460"
+  }
  },
  "places:abrasas": {
   "fecha": "2026-10-05",
@@ -216,6 +300,25 @@
  "places:carnes a punto": {
   "fecha": "2026-10-12",
   "r": []
+ },
+ "places:chicken love you": {
+  "fecha": "2026-10-26",
+  "r": [
+   {
+    "aprox": false,
+    "direccion": "Avenida Presidente Kennedy 5601",
+    "lat": -33.400837,
+    "lng": -70.576134,
+    "nombre": "Chicken Love You"
+   },
+   {
+    "aprox": false,
+    "direccion": "Avenida Vitacura 3269",
+    "lat": -33.406706,
+    "lng": -70.59871,
+    "nombre": "Chicken Love You"
+   }
+  ]
  },
  "places:churromania": {
   "fecha": "2026-10-12",
@@ -860,6 +963,10 @@
  },
  "places:velvet bakery": {
   "fecha": "2026-10-05",
+  "r": []
+ },
+ "places:work/café": {
+  "fecha": "2026-10-26",
   "r": []
  },
  "places:yogen fruz": {
