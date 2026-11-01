@@ -79,6 +79,26 @@
    "nombre": "Av. El Rodeo 13.330"
   }
  },
+ "addr:av. josé alcalde délano 10533, lo barnechea": {
+  "fecha": "2026-11-01",
+  "r": {
+   "aprox": false,
+   "direccion": "Ko Asian Kitchen, 10533, Avenida José Alcalde Délano, Condominio San Rafael 6, Lo Barnechea, Santiago, Provincia de Santiago",
+   "lat": -33.356701,
+   "lng": -70.539785,
+   "nombre": "Av. José Alcalde Délano 10533"
+  }
+ },
+ "addr:av. la dehesa 1500, lo barnechea": {
+  "fecha": "2026-11-01",
+  "r": {
+   "aprox": false,
+   "direccion": "Teatro Zoco, 1500, Avenida La Dehesa, La Dehesa, Lo Barnechea, Santiago, Provincia de Santiago",
+   "lat": -33.357999,
+   "lng": -70.517931,
+   "nombre": "Av. La Dehesa 1500"
+  }
+ },
  "addr:av. la dehesa 2035, lo barnechea": {
   "fecha": "2026-10-12",
   "r": {
@@ -119,6 +139,20 @@
    "nombre": "Av. Pdte. Kennedy 9351"
   }
  },
+ "addr:av. san josemaría escrivá de balaguer 13105 oficina 1007, vitacura": {
+  "fecha": "2026-11-01",
+  "r": null
+ },
+ "addr:av. vitacura 3875, vitacura": {
+  "fecha": "2026-11-01",
+  "r": {
+   "aprox": true,
+   "direccion": "Avenida Vitacura, Vitacura, Santiago, Provincia de Santiago",
+   "lat": -33.38136,
+   "lng": -70.544959,
+   "nombre": "Av. Vitacura 3875"
+  }
+ },
  "addr:boulevard los ingleses de chicureo, local 16, colina": {
   "fecha": "2026-10-12",
   "r": null
@@ -157,6 +191,10 @@
    "nombre": "Jorge Washington 70"
   }
  },
+ "addr:los ilanes 86, torre b, oficina 817, las condes": {
+  "fecha": "2026-11-01",
+  "r": null
+ },
  "addr:manquehue norte 958, las condes": {
   "fecha": "2026-10-26",
   "r": {
@@ -165,6 +203,16 @@
    "lat": -33.405434,
    "lng": -70.568403,
    "nombre": "Manquehue Norte 958"
+  }
+ },
+ "addr:nueva costanera 4092, vitacura": {
+  "fecha": "2026-11-01",
+  "r": {
+   "aprox": false,
+   "direccion": "Cumaru, 4092, Avenida Nueva Costanera, Lo Castillo, Vitacura, Santiago, Provincia de Santiago",
+   "lat": -33.395259,
+   "lng": -70.59761,
+   "nombre": "Nueva Costanera 4092"
   }
  },
  "addr:ricardo cumming 277, providencia": {
@@ -715,6 +763,10 @@
   "fecha": "2026-10-05",
   "r": []
  },
+ "places:kidzania": {
+  "fecha": "2026-11-01",
+  "r": []
+ },
  "places:kobo": {
   "fecha": "2026-10-05",
   "r": []
@@ -878,6 +930,18 @@
  "places:sakura": {
   "fecha": "2026-10-05",
   "r": []
+ },
+ "places:sicily": {
+  "fecha": "2026-11-01",
+  "r": [
+   {
+    "aprox": false,
+    "direccion": "Alonso de Córdova 4226, Vitacura",
+    "lat": -33.40294,
+    "lng": -70.589198,
+    "nombre": "Sicily"
+   }
+  ]
  },
  "places:street wrap": {
   "fecha": "2026-10-12",
