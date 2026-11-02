@@ -1,1 +1,1 @@
-Proveedores con 2+ corridas fallidas seguidas: bch (solo 0 beneficios (mínimo 3)), fal (ReadTimeout: The read operation timed out), ent (ReadTimeout: The read operation timed out)
+Proveedores con 2+ corridas fallidas seguidas: bch (ReadTimeout: The read operation timed out), fal (cayó de 32 a 11 beneficios; se conservan los datos anteriores), ent (ReadTimeout: The read operation timed out)

@@ -79,6 +79,10 @@
    "nombre": "Av. El Rodeo 13.330"
   }
  },
+ "addr:av. josé alcalde délano 10.682. local 12, paseo las pataguas, lo barnechea": {
+  "fecha": "2026-11-02",
+  "r": null
+ },
  "addr:av. josé alcalde délano 10533, lo barnechea": {
   "fecha": "2026-11-01",
   "r": {
@@ -143,6 +147,16 @@
   "fecha": "2026-11-01",
   "r": null
  },
+ "addr:av. vitacura 3285, vitacura": {
+  "fecha": "2026-11-02",
+  "r": {
+   "aprox": false,
+   "direccion": "3285, Avenida Vitacura, Naciones Unidas, Vitacura, Santiago, Provincia de Santiago",
+   "lat": -33.406532,
+   "lng": -70.598628,
+   "nombre": "Av. Vitacura 3285"
+  }
+ },
  "addr:av. vitacura 3875, vitacura": {
   "fecha": "2026-11-01",
   "r": {
@@ -155,6 +169,10 @@
  },
  "addr:boulevard los ingleses de chicureo, local 16, colina": {
   "fecha": "2026-10-12",
+  "r": null
+ },
+ "addr:costanera sur s.j.e. de balaguer 6400 local 8, vitacura": {
+  "fecha": "2026-11-02",
   "r": null
  },
  "addr:decher 161, puerto varas": {
@@ -179,6 +197,16 @@
    "lat": -33.351779,
    "lng": -70.512794,
    "nombre": "El Rodeo 13332"
+  }
+ },
+ "addr:isidora goyenechea 2895, las condes": {
+  "fecha": "2026-11-02",
+  "r": {
+   "aprox": false,
+   "direccion": "Don Carlos, 2895, Isidora Goyenechea, Sanhattan, Las Condes, Santiago, Provincia de Santiago",
+   "lat": -33.414159,
+   "lng": -70.601787,
+   "nombre": "Isidora Goyenechea 2895"
   }
  },
  "addr:jorge washington 70, ñuñoa": {
@@ -215,6 +243,10 @@
    "nombre": "Nueva Costanera 4092"
   }
  },
+ "addr:oconnell 165, las condes": {
+  "fecha": "2026-11-02",
+  "r": null
+ },
  "addr:ricardo cumming 277, providencia": {
   "fecha": "2026-10-26",
   "r": null
@@ -232,6 +264,16 @@
  "addr:suecia 0155, local 102, providencia": {
   "fecha": "2026-10-12",
   "r": null
+ },
+ "addr:tenderini 159, santiago": {
+  "fecha": "2026-11-02",
+  "r": {
+   "aprox": true,
+   "direccion": "159, Paseo Tenderini, Santiago, Provincia de Santiago",
+   "lat": -33.440911,
+   "lng": -70.647142,
+   "nombre": "Tenderini 159"
+  }
  },
  "addr:vicuña mackenna 11.460, la florida": {
   "fecha": "2026-10-26",
@@ -286,6 +328,10 @@
     "nombre": "Abtao"
    }
   ]
+ },
+ "places:argentum": {
+  "fecha": "2026-11-02",
+  "r": []
  },
  "places:avatar sushi": {
   "fecha": "2026-10-05",
