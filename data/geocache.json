@@ -349,8 +349,16 @@
   "fecha": "2026-10-12",
   "r": []
  },
+ "places:barrio chicken": {
+  "fecha": "2026-11-16",
+  "r": []
+ },
  "places:bianco latte": {
   "fecha": "2026-10-12",
+  "r": []
+ },
+ "places:biancolatte": {
+  "fecha": "2026-11-16",
   "r": []
  },
  "places:boost": {
@@ -395,6 +403,99 @@
   "fecha": "2026-10-12",
   "r": []
  },
+ "places:castaño": {
+  "fecha": "2026-11-16",
+  "r": [
+   {
+    "aprox": false,
+    "direccion": "Augusto Leguía Norte 123, Las Condes",
+    "lat": -33.414889,
+    "lng": -70.597728,
+    "nombre": "Castaño"
+   },
+   {
+    "aprox": false,
+    "direccion": "Avenida Providencia, Providencia",
+    "lat": -33.420766,
+    "lng": -70.607745,
+    "nombre": "Castaño"
+   },
+   {
+    "aprox": false,
+    "direccion": "Santa Magdalena 16, Santiago",
+    "lat": -33.42118,
+    "lng": -70.609364,
+    "nombre": "Castaño"
+   },
+   {
+    "aprox": false,
+    "direccion": "Avenida Providencia 1474, Providencia",
+    "lat": -33.427582,
+    "lng": -70.61764,
+    "nombre": "Castaño"
+   },
+   {
+    "aprox": false,
+    "direccion": "Avenida Apoquindo, Las Condes",
+    "lat": -33.409931,
+    "lng": -70.572168,
+    "nombre": "Castaño"
+   },
+   {
+    "aprox": false,
+    "direccion": "Castaño",
+    "lat": -33.426458,
+    "lng": -70.614573,
+    "nombre": "Castaño"
+   },
+   {
+    "aprox": false,
+    "direccion": "Antonio Varas 117, Providencia",
+    "lat": -33.428832,
+    "lng": -70.61737,
+    "nombre": "Castaño"
+   },
+   {
+    "aprox": false,
+    "direccion": "Castaño",
+    "lat": -33.428721,
+    "lng": -70.61947,
+    "nombre": "Castaño"
+   },
+   {
+    "aprox": false,
+    "direccion": "Antonio Bellet 61, Providencia",
+    "lat": -33.426232,
+    "lng": -70.617092,
+    "nombre": "Castaño"
+   },
+   {
+    "aprox": false,
+    "direccion": "Avenida Providencia, Providencia",
+    "lat": -33.430486,
+    "lng": -70.622558,
+    "nombre": "Castaño"
+   },
+   {
+    "aprox": false,
+    "direccion": "Castaño",
+    "lat": -33.424945,
+    "lng": -70.612803,
+    "nombre": "Castaño"
+   },
+   {
+    "aprox": false,
+    "direccion": "Avenida Apoquindo, Las Condes",
+    "lat": -33.411223,
+    "lng": -70.576564,
+    "nombre": "Castaño"
+   }
+  ]
+ },
+ "places:central 55": {
+  "fecha": "2026-11-16",
+  "r": []
+ },
  "places:chicken love you": {
   "fecha": "2026-10-26",
   "r": [
@@ -424,6 +525,10 @@
  },
  "places:combustible copec": {
   "fecha": "2026-10-05",
+  "r": []
+ },
+ "places:copec": {
+  "fecha": "2026-11-16",
   "r": []
  },
  "places:cupón dominical copec": {
@@ -527,12 +632,109 @@
   "fecha": "2026-10-12",
   "r": []
  },
+ "places:dominos pizza": {
+  "fecha": "2026-11-16",
+  "r": []
+ },
  "places:dulcentorno": {
   "fecha": "2026-10-12",
   "r": []
  },
+ "places:dunkin": {
+  "fecha": "2026-11-16",
+  "r": [
+   {
+    "aprox": false,
+    "direccion": "Avenida El Bosque Norte, Las Condes",
+    "lat": -33.41694,
+    "lng": -70.600015,
+    "nombre": "Dunkin'"
+   },
+   {
+    "aprox": false,
+    "direccion": "Avenida Providencia 2098, Providencia",
+    "lat": -33.422764,
+    "lng": -70.611646,
+    "nombre": "Dunkin'"
+   },
+   {
+    "aprox": false,
+    "direccion": "Avenida Cristóbal Colón 4455, Las Condes",
+    "lat": -33.42356,
+    "lng": -70.578212,
+    "nombre": "Dunkin'"
+   },
+   {
+    "aprox": false,
+    "direccion": "Dunkin'",
+    "lat": -33.451822,
+    "lng": -70.679811,
+    "nombre": "Dunkin'"
+   },
+   {
+    "aprox": false,
+    "direccion": "Avenida La Dehesa 1445, Lo Barnechea",
+    "lat": -33.3574,
+    "lng": -70.514758,
+    "nombre": "Dunkin'"
+   },
+   {
+    "aprox": false,
+    "direccion": "Avenida Camino Los Trapenses 3515, Lo Barnechea",
+    "lat": -33.343601,
+    "lng": -70.544977,
+    "nombre": "Dunkin'"
+   },
+   {
+    "aprox": false,
+    "direccion": "Camino El Alba 11969",
+    "lat": -33.401526,
+    "lng": -70.514456,
+    "nombre": "Dunkin'"
+   },
+   {
+    "aprox": false,
+    "direccion": "Avenida Concha y Toro 1149, Puente Alto",
+    "lat": -33.599547,
+    "lng": -70.574972,
+    "nombre": "Dunkin'"
+   },
+   {
+    "aprox": false,
+    "direccion": "Las Bellotas 228, Providencia",
+    "lat": -33.42247,
+    "lng": -70.608009,
+    "nombre": "Dunkin'"
+   },
+   {
+    "aprox": false,
+    "direccion": "Las Condes",
+    "lat": -33.414361,
+    "lng": -70.583854,
+    "nombre": "Dunkin'"
+   },
+   {
+    "aprox": false,
+    "direccion": "Dunkin'",
+    "lat": -33.457655,
+    "lng": -70.715376,
+    "nombre": "Dunkin'"
+   },
+   {
+    "aprox": false,
+    "direccion": "Avenida Vitacura, Vitacura",
+    "lat": -33.390235,
+    "lng": -70.57016,
+    "nombre": "Dunkin'"
+   }
+  ]
+ },
  "places:dunkin'": {
   "fecha": "2026-10-05",
+  "r": []
+ },
+ "places:el café rosa": {
+  "fecha": "2026-11-16",
   "r": []
  },
  "places:el mundo del vino": {
@@ -654,6 +856,14 @@
  },
  "places:fork": {
   "fecha": "2026-10-05",
+  "r": []
+ },
+ "places:franchute": {
+  "fecha": "2026-11-16",
+  "r": []
+ },
+ "places:grds": {
+  "fecha": "2026-11-16",
   "r": []
  },
  "places:green lab": {
@@ -886,6 +1096,10 @@
    }
   ]
  },
+ "places:majestic": {
+  "fecha": "2026-11-16",
+  "r": []
+ },
  "places:mallplaza": {
   "fecha": "2026-10-12",
   "r": [
@@ -945,6 +1159,60 @@
    }
   ]
  },
+ "places:oakberry": {
+  "fecha": "2026-11-16",
+  "r": [
+   {
+    "aprox": false,
+    "direccion": "Avenida Apoquindo 2730, Las Condes",
+    "lat": -33.417063,
+    "lng": -70.601287,
+    "nombre": "Oakberry Açaí bowls"
+   },
+   {
+    "aprox": false,
+    "direccion": "Avenida Larraín 5862, La Reina",
+    "lat": -33.452548,
+    "lng": -70.569564,
+    "nombre": "Oakberry Açaí bowls"
+   },
+   {
+    "aprox": false,
+    "direccion": "Armando Cortínez Oriente 1704, Pudahuel",
+    "lat": -33.396687,
+    "lng": -70.795761,
+    "nombre": "Oakberry Açaí bowls"
+   },
+   {
+    "aprox": false,
+    "direccion": "Avenida Presidente Kennedy 5413",
+    "lat": -33.402752,
+    "lng": -70.577918,
+    "nombre": "Oakberry Açaí bowls"
+   },
+   {
+    "aprox": false,
+    "direccion": "Avenida Andrés Bello 2461, Providencia",
+    "lat": -33.418513,
+    "lng": -70.606113,
+    "nombre": "Oakberry Açaí bowls"
+   },
+   {
+    "aprox": false,
+    "direccion": "Oakberry Açaí bowls",
+    "lat": -33.414716,
+    "lng": -70.584915,
+    "nombre": "Oakberry Açaí bowls"
+   },
+   {
+    "aprox": false,
+    "direccion": "Alonso de Córdova 4294, Vitacura",
+    "lat": -33.403268,
+    "lng": -70.588059,
+    "nombre": "Oakberry Açaí bowls"
+   }
+  ]
+ },
  "places:palettas": {
   "fecha": "2026-10-12",
   "r": [
@@ -973,6 +1241,10 @@
   "fecha": "2026-10-05",
   "r": []
  },
+ "places:roof burger": {
+  "fecha": "2026-11-16",
+  "r": []
+ },
  "places:sakura": {
   "fecha": "2026-10-05",
   "r": []
@@ -989,6 +1261,95 @@
    }
   ]
  },
+ "places:starbucks": {
+  "fecha": "2026-11-16",
+  "r": [
+   {
+    "aprox": false,
+    "direccion": "Isidora Goyenechea, Las Condes",
+    "lat": -33.41441,
+    "lng": -70.593773,
+    "nombre": "Starbucks"
+   },
+   {
+    "aprox": false,
+    "direccion": "Avenida Apoquindo 3575, Las Condes",
+    "lat": -33.416248,
+    "lng": -70.592464,
+    "nombre": "Starbucks"
+   },
+   {
+    "aprox": false,
+    "direccion": "Avenida La Dehesa 1445, Lo Barnechea",
+    "lat": -33.35818,
+    "lng": -70.515371,
+    "nombre": "Starbucks"
+   },
+   {
+    "aprox": false,
+    "direccion": "Avenida Ricardo Lyon 172, Providencia",
+    "lat": -33.423198,
+    "lng": -70.609092,
+    "nombre": "Starbucks"
+   },
+   {
+    "aprox": false,
+    "direccion": "Avenida Presidente Kennedy 5413",
+    "lat": -33.402296,
+    "lng": -70.578752,
+    "nombre": "Starbucks"
+   },
+   {
+    "aprox": false,
+    "direccion": "La Concepción 120, Providencia",
+    "lat": -33.424819,
+    "lng": -70.615926,
+    "nombre": "Starbucks"
+   },
+   {
+    "aprox": false,
+    "direccion": "Avenida Andrés Bello",
+    "lat": -33.414506,
+    "lng": -70.60466,
+    "nombre": "Starbucks"
+   },
+   {
+    "aprox": false,
+    "direccion": "Agustinas 1161, Santiago",
+    "lat": -33.440899,
+    "lng": -70.653003,
+    "nombre": "Starbucks Small Lounge"
+   },
+   {
+    "aprox": false,
+    "direccion": "Agustinas 640, Santiago",
+    "lat": -33.440441,
+    "lng": -70.645963,
+    "nombre": "Starbucks"
+   },
+   {
+    "aprox": false,
+    "direccion": "Avenida Las Condes",
+    "lat": -33.372222,
+    "lng": -70.518421,
+    "nombre": "Starbucks"
+   },
+   {
+    "aprox": false,
+    "direccion": "Avenida Presidente Riesco 5333",
+    "lat": -33.405396,
+    "lng": -70.576458,
+    "nombre": "Starbucks"
+   },
+   {
+    "aprox": false,
+    "direccion": "Avenida Vicuña Mackenna Oriente 7110, La Florida",
+    "lat": -33.517537,
+    "lng": -70.59799,
+    "nombre": "Starbucks"
+   }
+  ]
+ },
  "places:street wrap": {
   "fecha": "2026-10-12",
   "r": []
@@ -1000,6 +1361,95 @@
  "places:takoi": {
   "fecha": "2026-10-12",
   "r": []
+ },
+ "places:tarragona": {
+  "fecha": "2026-11-16",
+  "r": [
+   {
+    "aprox": false,
+    "direccion": "Avenida San Ignacio 500",
+    "lat": -33.332339,
+    "lng": -70.70427,
+    "nombre": "Tarragona"
+   },
+   {
+    "aprox": false,
+    "direccion": "Gran Avenida José Miguel Carrera, San Miguel",
+    "lat": -33.487674,
+    "lng": -70.650365,
+    "nombre": "Tarragona"
+   },
+   {
+    "aprox": false,
+    "direccion": "Avenida Alcalde Carlos Valdovinos 200",
+    "lat": -33.486342,
+    "lng": -70.626444,
+    "nombre": "Tarragona"
+   },
+   {
+    "aprox": false,
+    "direccion": "Estación Central",
+    "lat": -33.453901,
+    "lng": -70.692179,
+    "nombre": "Tarragona"
+   },
+   {
+    "aprox": false,
+    "direccion": "Gran Avenida José Miguel Carrera 10375, El Bosque",
+    "lat": -33.553023,
+    "lng": -70.676579,
+    "nombre": "Tarragona"
+   },
+   {
+    "aprox": false,
+    "direccion": "Avenida Américo Vespucio 1737, Huechuraba",
+    "lat": -33.364595,
+    "lng": -70.678996,
+    "nombre": "Tarragona"
+   },
+   {
+    "aprox": false,
+    "direccion": "Avenida Andrés Bello 2461, Providencia",
+    "lat": -33.417999,
+    "lng": -70.606878,
+    "nombre": "Tarragona"
+   },
+   {
+    "aprox": false,
+    "direccion": "Avenida María Rozas Velásquez 73, Estación Central",
+    "lat": -33.456597,
+    "lng": -70.705146,
+    "nombre": "Tarragona"
+   },
+   {
+    "aprox": false,
+    "direccion": "Tarragona",
+    "lat": -33.56721,
+    "lng": -70.557481,
+    "nombre": "Tarragona"
+   },
+   {
+    "aprox": false,
+    "direccion": "Tarragona",
+    "lat": -33.428527,
+    "lng": -70.586252,
+    "nombre": "Tarragona"
+   },
+   {
+    "aprox": false,
+    "direccion": "Tarragona",
+    "lat": -33.396233,
+    "lng": -70.755741,
+    "nombre": "Tarragona"
+   },
+   {
+    "aprox": false,
+    "direccion": "Tarragona",
+    "lat": -33.427817,
+    "lng": -70.585101,
+    "nombre": "Tarragona"
+   }
+  ]
  },
  "places:the body shop": {
   "fecha": "2026-10-05",
@@ -1075,12 +1525,24 @@
   "fecha": "2026-10-05",
   "r": []
  },
+ "places:viña montgras": {
+  "fecha": "2026-11-16",
+  "r": []
+ },
  "places:work/café": {
   "fecha": "2026-10-26",
   "r": []
  },
  "places:yogen fruz": {
   "fecha": "2026-10-12",
+  "r": []
+ },
+ "places:yogen früz": {
+  "fecha": "2026-11-16",
+  "r": []
+ },
+ "places:yogurt life": {
+  "fecha": "2026-11-16",
   "r": []
  }
 }

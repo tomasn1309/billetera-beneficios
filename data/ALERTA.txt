@@ -1,1 +1,1 @@
-Proveedores con 2+ corridas fallidas seguidas: bch (solo 0 beneficios (mínimo 3)), fal (ReadTimeout: The read operation timed out), ent (ReadTimeout: The read operation timed out)
+Proveedores con 2+ corridas fallidas seguidas: bch (solo 0 beneficios (mínimo 3)), san (ninguna página descargó (https://banco.santander.cl/beneficios: HTTP 403; https://banco.santander.cl/beneficios/descuentos-restaurantes: HTTP 403; https://panguiapp.com/bancos/santander: HTTP 402)), fal (ReadTimeout: The read operation timed out)
